@@ -135,10 +135,12 @@ export default function Home() {
   function handleReverse4(e) {
     tl4.reverse();
   }
-
+  
   useEffect(() => {
-    handleClick();
-  });
+    setTimeout(() => handleClick(), 1000);
+  }, []); // <-- empty dependency array
+
+
   return (
     <div className="home-container">
       <div className="manset-sekil"></div>

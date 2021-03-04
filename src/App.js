@@ -12,7 +12,7 @@ import karvansaray from "../src/pages/Abideler/assets/Fuzuli/karvansaray/karvans
 import karvansarayarxiv from "../src/pages/Abideler/assets/Fuzuli/karvansaray/karvansaray-sonra.jpg";
 import karvansaraysonra from "../src/pages/Abideler/assets/Fuzuli/karvansaray/k-w.jpg";
 
-import qarakopektepe from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe.JPG";
+import qarakopektepe from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe1.jpg";
 import qarakopektepe2 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe2.jpg";
 import qarakopektepe3 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe3.jpg";
 import qarakopektepe4 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe4.jpg";
