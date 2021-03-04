@@ -138,9 +138,8 @@ export default function Home() {
 
   useEffect(() => {
     // setTimeout(() => handleClick(), 1000);
-    handleClick()
+    handleClick();
   }, []); // <-- empty dependency array
-
 
   return (
     <div className="home-container">
@@ -208,20 +207,44 @@ export default function Home() {
         </a>
         <div className="manset-main3">
           <p className="manset-rayon3">Şuşa</p>
-          <p className="manset-abide3">Yuxarı Gövhər ağa məscidi</p>
+          <p className="manset-abide3">X.Natəvanın evi</p>
           <p className="manset-melumat3">
-            Yuxarı Gövhər ağa məscidi Azərbaycan Respublikasının Nazirlər
-            Kabinetinin 2 avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə
-            əhəmiyyətli memarlıq abidəsi kimi (inventar № 344, tarixi-
-            1768—1769-cu illər) dövlət qeydiyyatına alınmışdır. Qarabağ
-            xanlığının mərkəzini Şahbulaq qalasından Şuşaya köçürməyə qərar
-            verən Pənahəli xan yeni şəhər və infrastruktur tikililərini inşa
-            etməyə rəvac verir. 1750–ci illərdə onun göstərişi ilə Şuşa qalası,
-            qala daxilində xan ailəsi üzvləri üçün malikanə və saraylar, o
-            cümlədən məscid də inşa edilir. Şuşada həmin dövrdə bütün tikililər
-            kimi “Yuxarı Gövhər ağa” məscidi də ilkin olaraq kiçik həcmdə inşa
-            edilmişdir. Həmin məscidin memarlıq xüsusiyyətləri haqqında heç nə
-            məlum deyil.
+            X.Natəvanın evi Azərbaycan Respublikasının Nazirlər Kabinetinin 2
+            avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə əhəmiyyətli
+            memarlıq abidəsi kimi (inventar № 342, tarixi- XVIII əsr) dövlət
+            qeydiyyatına alınmışdır.Xurşidbanu Natəvanın evi Şuşanın ilkin inşa
+            edilmiş mülklərindən biridir. Sifarişçisi Xan qızı olan sarayın
+            tikilmə tarixi və kim tərəfindən inşa olunduğu haqqında dəqiq
+            məlumat yoxdur. XIX əsrə aid olunur. Saray böyük bir ərazini əhatə
+            edən həyətdən ibarətdir. Bu həyətdə Natəvanın özünün evi, ata mülkü
+            Mehdiqulu xanın imarəti, böyük buzxana, boyuk düzbucaqlı formada
+            hovuz və muxtəlif xidməti tikililər olmuşdur.Xurşidbanu ailənin
+            yeganə övladı, həm də Qarabağ xanlığının sоnuncu vərəsəsi оlduğu
+            ücün оnu sarayda “Durru yeкta” (Təк inci), el arasında isə “Xan
+            qızı” cağırırdılar. Zəmanəsinin görkəmli şəxsiyyətlərindən olub,
+            təkcə Azərbaycanda deyil, bütün Zaqafqaziyada xeyirxahlığı və
+            mesenatlığı ilə tanınmışdı. O, kasıblara əl tutmuş, Şuşaya su
+            cəkdirmişdi. Cəkdirdiyi bulaq “Xan qızı bulağı”adı ilə məşhur idi.
+            Xurşidbanu Natəvan 1897-ci il oktyabrın 1-də vəfat etmişdir və
+            məzarı Ağdamın “İmarət” qəbiristanlığındadır. Təssüflə qeyd etmək
+            yerinə düşər ki, “Xan qızı”nın məzarı da məhv edilərək erməni
+            vandalizminin qurbanına çevrilmişdir.Sovet donəmində Bülbülün
+            təşəbbüsü ilə Azərbaycan SSR Xalq Maarif Komissarlığının 10 oktyabr
+            1932-ci il tarixli Qərarına əsasən rəsmi olaraq Şuşa Musiqi Məktəbi
+            yaradılmışdır (bu həm də Azərbaycanda yaradılan ilk uşaq musiqi
+            məktəbi idi). Məktəb Xan qızı Natəvanın evi olmuş binada fəaliyyətə
+            başlamışdır. Ata mülkünün binasında isə uşaq sanatoriyası
+            yerləşdirilmişdir. 1987-ci ildə musiqi məktəbi digər binaya
+            köcürülərək binada bərpa işləri aparıldıqdan sonra Nizami Gəncəvi
+            adına Milli Azərbaycan Ədəbiyyatı Muzeyinin filialı olan Xurşidbanu
+            Natəvanın evi ev-muzeyi kimi fəaliyyətə başlamışdır. 8 may 1992-ci
+            ildə Şuşa şəhəri Ermənistan silahlı qüvvələri tərəfindən işğal
+            olunduqdan sonra saray kompleksi də dağıntıya məruz qalmışdır.Bu
+            abidə iki evdən ibarətdir ki, hazırda hər iki evin yalnız
+            divarlarının bir hissəsi qalmışdır. İşğaldan sonra ermənilər
+            tərəfindən dam örtüyü tamamilə, eləcə də divarlarının bir hissəsi
+            uçurulmuş, tikililərin hər ikisinin ilkin görkəminə ciddi xələl
+            dəymişdir.
           </p>
           <button className="manset-button3">
             <span>DAHA ƏTRALI</span>
@@ -236,20 +259,19 @@ export default function Home() {
         </a>
         <div className="manset-main4">
           <p className="manset-rayon4">Şuşa</p>
-          <p className="manset-abide4">Yuxarı Gövhər ağa məscidi</p>
+          <p className="manset-abide4">Aşağı Gövhər Ağa Məscidi</p>
           <p className="manset-melumat4">
-            Yuxarı Gövhər ağa məscidi Azərbaycan Respublikasının Nazirlər
+            Aşağı Gövhər ağa məscidi Azərbaycan Respublikasının Nazirlər
             Kabinetinin 2 avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə
-            əhəmiyyətli memarlıq abidəsi kimi (inventar № 344, tarixi-
-            1768—1769-cu illər) dövlət qeydiyyatına alınmışdır. Qarabağ
-            xanlığının mərkəzini Şahbulaq qalasından Şuşaya köçürməyə qərar
-            verən Pənahəli xan yeni şəhər və infrastruktur tikililərini inşa
-            etməyə rəvac verir. 1750–ci illərdə onun göstərişi ilə Şuşa qalası,
-            qala daxilində xan ailəsi üzvləri üçün malikanə və saraylar, o
-            cümlədən məscid də inşa edilir. Şuşada həmin dövrdə bütün tikililər
-            kimi “Yuxarı Gövhər ağa” məscidi də ilkin olaraq kiçik həcmdə inşa
-            edilmişdir. Həmin məscidin memarlıq xüsusiyyətləri haqqında heç nə
-            məlum deyil.
+            əhəmiyyətli memarlıq abidəsi kimi (inventar № 345, tarixi- XVIII
+            əsr) dövlət qeydiyyatına alınmışdır.Məscid Şuşa şəhərinin Qapan
+            meydanında yerləşir. Məscid ilk dəfə Şuşanın 1855-ci ilə aid baş
+            planında yaxınlıqda yerləşən mədrəsə ilə birlikdə qeydə alınmışdır.
+            Şəhərin ikinci cümə məscidi olan Aşağı Gövhər ağa məscidi həm Aşağı
+            məscid, həm də Kiçik məscid adları ilə tanınmışdır. Birinci ad onun
+            Yuxarı Gövhər ağa məscidi ilə müqayisədə coğrafi yerləşməsini,
+            ikinci ad isə onun Cümə məscidi ilə müqayisədə ölçülərini bildirir.
+           
           </p>
           <button className="manset-button4">
             <span>DAHA ƏTRALI</span>
