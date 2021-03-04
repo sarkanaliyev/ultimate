@@ -2,12 +2,12 @@ html,
 body {
   /* background-image: url("./assets/screen.jpg");
   background-size: cover; */
-  cursor: url("./assets/bulbul2.png"), auto;
+  cursor: url(./assets/bulbul2.png), auto;
   /* overflow: hidden; */
 }
 .home-container {
   overflow: hidden;
-  background-image: url("./assets/screen.jpg");
+  background-image: url(./assets/screen.jpg);
   background-size: cover;
 }
 .home-up {
@@ -200,7 +200,7 @@ body {
 }
 .manset-sekil {
   /* background: white; */
-  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG);
   background-size: cover;
   z-index: 2;
   width: 0;
@@ -342,7 +342,7 @@ body {
 }
 .manset-sekil2 {
   /* background: white; */
-  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG);
   background-size: cover;
   z-index: 2;
   width: 0;
@@ -484,7 +484,7 @@ body {
 }
 .manset-sekil3 {
   /* background: white; */
-  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG);
   background-size: cover;
   z-index: 2;
   width: 0;
@@ -626,7 +626,7 @@ body {
 }
 .manset-sekil4 {
   /* background: white; */
-  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG);
   background-size: cover;
   z-index: 2;
   width: 0;

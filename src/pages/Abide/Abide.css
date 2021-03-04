@@ -68,8 +68,6 @@
   /* background-image: url("../assets/karvansaray.JPG"); */
   background-size: cover;
 
-
-
   position: relative;
 
   width: 60%;
@@ -87,6 +85,47 @@
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-duration: 30s;
   -webkit-animation-iteration-count: infinite;
+}
+
+.isgal-ox {
+  position: absolute;
+  /* width: 16px;
+  height: 28px; */
+  left: 251px;
+  top: 681px;
+  cursor: pointer;
+  /* border: 1.6px solid #ffffff; */
+  /* transform: matrix(0, 1, 1, 0, 0, 0); */
+}
+.isgal-ox-sag {
+  position: absolute;
+  /* width: 16px;
+  height: 28px; */
+  left: 531px;
+  top: 681px;
+  cursor: pointer;
+
+  /* border: 1.6px solid #ffffff; */
+}
+.isgal-sonra {
+  position: absolute;
+  width: 136px;
+  height: 19px;
+  left: 339px;
+  top: 671px;
+  /* top: 651px; */
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 @keyframes bounce-background {
   from {
