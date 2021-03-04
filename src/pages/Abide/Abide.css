@@ -1,0 +1,163 @@
+.abide-logo {
+  position: fixed;
+  /* width: 250.36px; */
+  /* height: 49px; */
+  width: 16.276041666666668vw;
+  /* height: 6.49867374005305vh ; */
+  left: 50px;
+  top: 40px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.abide-hamburger {
+  position: fixed;
+  /* width: 42px;
+  height: 16px; */
+  width: 2.734375vw;
+  height: 2.1220159151193636vh;
+
+  right: 50px;
+  top: 50px;
+
+  z-index: 1;
+  /* right: 3.2552083333333335vw;
+  top: 7.427055702917772vh; */
+
+  /* margin: 2em 0 0 2em; */
+  /* margin-left: 8%;
+  margin-top: 2%; */
+}
+
+.abide-hamburger div {
+  /* height: 2px; */
+  height: 0.26525198938992045vh;
+  background: #000;
+  /* margin: 2px 0; */
+  margin: 0.26525198938992045vh 0;
+  /* border-right: 24px; */
+  transition: 0.3s;
+}
+
+.abide-one {
+  /* width: 50px; */
+  /* width: 3.2552083333333335vw; */
+  width: 2.734375vw;
+  float: right;
+}
+
+.abide-two {
+  /* width: 40px; */
+  /* width: 2.6041666666666665vw; */
+  width: 2.4739583333333335vw;
+  float: right;
+}
+.abide-three {
+  /* width: 30px; */
+  /* width: 1.953125vw; */
+  width: 2.2135416666666665vw;
+  float: right;
+}
+
+.abide-hamburger:hover div {
+  /* width: 50px; */
+  width: 3.2552083333333335vw;
+}
+
+.abide-left {
+  /* background-image: url("../assets/karvansaray.JPG"); */
+  background-size: cover;
+
+
+
+  position: relative;
+
+  width: 60%;
+  height: 100vh;
+  float: left;
+  overflow-y: hidden;
+
+  animation-name: bounce-background;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  /* For Chrome & Safari */
+  -webkit-animation-name: bounce-background;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes bounce-background {
+  from {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+.abide-right {
+  width: 40%;
+  height: 100vh;
+  float: right;
+  overflow-y: auto;
+}
+
+.abide-right-main {
+  margin-top: 20%;
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.abide-right-melumat-div {
+  width: 100%;
+}
+
+.abide-right-rayon {
+  font-size: 0.9765625vw;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.abide-right-abide {
+  font-size: 1.4322916666666667vw;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.abide-right-text {
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  padding-bottom: 30px;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.abide-right-qalereya {
+  font-size: 1.0416666666666667vw;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}

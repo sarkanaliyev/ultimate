@@ -1,0 +1,87 @@
+.xerite-sag-container {
+  /* background-color: red; */
+  display: flex;
+  height: 100vh;
+  width: 40%;
+  /* right: 0; */
+  float: right;
+  overflow: hidden;
+  opacity: 0;
+  /* border-left: 2px solid black; */
+}
+.xerite-sag-main-div {
+  /* background-color: black; */
+  margin-top: 20%;
+  margin-left: 5%;
+  display: inline-block;
+  text-align: left;
+
+  /* width: 80%; */
+  /* height: 80vh; */
+}
+.xerite-arrow {
+}
+.xerite-rayon {
+  margin-top: 1.953125vw;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5625vw;
+
+  color: #3a3d3f;
+}
+
+.xerite-sag-ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.xerite-sag-ul li {
+  width: 100%;
+  /* display: inline-block; */
+  /* background-color: gray; */
+  margin-bottom: 20px;
+  /* vertical-align: middle; */
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.xerite-sag-ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.171875vw;
+}
+.xerite-sag-ul li img {
+  width: 2.6041666666666665vw;
+  height: 2.6041666666666665vw;
+}
+.xerite-sag-ul li a:hover {
+  color: blue;
+}
+.xerite-sag-ul li span {
+  padding-left: 20px;
+  text-decoration: none;
+}
+.xerite-sag-button {
+  margin: 0 auto;
+  display: block;
+  /* margin-top: 20px; */
+  width: 140px;
+  height: 50px;
+
+  background: #3a3d3f;
+}
+.xerite-sag-button-span {
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+
+  color: #ffffff;
+}

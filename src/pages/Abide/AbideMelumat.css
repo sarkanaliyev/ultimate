@@ -1,0 +1,27 @@
+.wrap {
+  display: inline-block;
+}
+.paper {
+  /* font-size: 14px; */
+  font-size: 0.9114583333333334vw;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 599px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1800px) {
+  /* .paper {
+    font-size: 28px;
+  } */
+}

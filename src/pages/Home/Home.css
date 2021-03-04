@@ -1,0 +1,753 @@
+html,
+body {
+  /* background-image: url("./assets/screen.jpg");
+  background-size: cover; */
+  cursor: url("./assets/bulbul2.png"), auto;
+  /* overflow: hidden; */
+}
+.home-container {
+  overflow: hidden;
+  background-image: url("./assets/screen.jpg");
+  background-size: cover;
+}
+.home-up {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  background-image: linear-gradient(
+    180deg,
+    #000000 -112.64%,
+    rgba(0, 0, 0, 0) 100%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  /* background-size: cover; */
+  /* background: linear-gradient(180deg, #000000 -112.64%, rgba(0, 0, 0, 0) 76.08%, rgba(0, 0, 0, 0.1) 76.08%); */
+}
+
+.home-hamburger {
+  position: fixed;
+  /* width: 42px;
+  height: 16px; */
+  width: 2.734375vw;
+  height: 2.1220159151193636vh;
+
+  right: 50px;
+  top: 50px;
+
+  z-index: 1;
+  /* right: 3.2552083333333335vw;
+  top: 7.427055702917772vh; */
+
+  /* margin: 2em 0 0 2em; */
+  /* margin-left: 8%;
+  margin-top: 2%; */
+}
+
+.home-hamburger div {
+  /* height: 2px; */
+  height: 0.26525198938992045vh;
+  background: #fff;
+  /* margin: 2px 0; */
+  margin: 0.26525198938992045vh 0;
+  /* border-right: 24px; */
+  transition: 0.3s;
+}
+
+.home-one {
+  /* width: 50px; */
+  /* width: 3.2552083333333335vw; */
+  width: 2.734375vw;
+  float: right;
+}
+
+.home-two {
+  /* width: 40px; */
+  /* width: 2.6041666666666665vw; */
+  width: 2.4739583333333335vw;
+  float: right;
+}
+.home-three {
+  /* width: 30px; */
+  /* width: 1.953125vw; */
+  width: 2.2135416666666665vw;
+  float: right;
+}
+
+.home-hamburger:hover div {
+  /* width: 50px; */
+  width: 3.2552083333333335vw;
+}
+
+.home-logo {
+  position: fixed;
+  /* width: 250.36px; */
+  /* height: 49px; */
+  width: 16.276041666666668vw;
+  /* height: 6.49867374005305vh ; */
+  left: 50px;
+  top: 40px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.home-numbers-ul {
+  /* background-color: red; */
+  position: absolute;
+  right: 52px;
+  /* top: 339px; */
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  list-style-type: none;
+  z-index: 1;
+}
+
+.home-numbers-ul li {
+  margin: 22px 0;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  cursor: pointer;
+  color: #ffffff;
+}
+.home-numbers-ul li:hover {
+  color: orange;
+}
+
+.home-button {
+  position: absolute;
+  width: 13.020833333333334vw;
+  height: 3.2552083333333335vw;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  background: #ffffff;
+  border: 1px solid #987b4d;
+  box-sizing: border-box;
+  box-shadow: 0px 14px 24px -6px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: ease-out 1s;
+  z-index: 1;
+}
+
+.home-button:hover {
+  box-shadow: inset 300px 0 0 0 orange;
+  cursor: pointer;
+  transition: ease-out 1s;
+}
+.home-button:hover > .testspan {
+  color: white;
+}
+
+.home-button span {
+  /* position: absolute; */
+  /* width: 148px;
+  height: 19px; */
+  /* left: 646px; */
+  /* top: 441px; */
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9114583333333334vw;
+  /* line-height: 19px; */
+  /* identical to box height */
+
+  display: flex;
+  align-items: end;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  color: #000000;
+}
+
+.images-container {
+  animation: circle1 30s linear infinite;
+  /* background-color: red; */
+  position: relative;
+  /* width: 100%; */
+  height: 100vh;
+}
+@keyframes circle1 {
+  from {
+    transform: rotate(0deg) translate(-200px) rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg) translate(200px) rotate(-45deg);
+  }
+  to {
+    transform: rotate(0deg) translate(-200px) rotate(0deg);
+  }
+}
+/* ////////////////////////////////// */
+
+.manset {
+  background: white;
+  z-index: 2;
+  /* width: 40%; */
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  /* pointer-events: none; */
+  position: absolute;
+  right: 0;
+}
+.manset-sekil {
+  /* background: white; */
+  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-size: cover;
+  z-index: 2;
+  width: 0;
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+}
+.manset-rayon {
+  position: absolute;
+  width: 2.0182291666666665vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 150px; */
+
+  left: 3.2552083333333335vw;
+  top: 19.893899204244033vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9765625vw;
+
+  /* font-size: 15px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-abide {
+  position: absolute;
+  width: 27.473958333333332vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 188px; */
+
+  left: 3.2552083333333335vw;
+  top: 24.93368700265252vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 1.4322916666666667vw;
+  /* font-size: 22px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+
+.manset-melumat {
+  position: absolute;
+
+  width: 27.669270833333332vw;
+  /* height: 47.3474801061008vh; */
+
+  /* left: 50px;
+  top: 246px; */
+
+  left: 3.2552083333333335vw;
+  top: 32.62599469496021vh;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  /* font-size: 14px; */
+  /* line-height: 28px; */
+
+  /* or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-button {
+  position: absolute;
+
+  width: 11.263020833333334vw;
+  height: 6.63129973474801vh;
+
+  left: 3.2552083333333335vw;
+  top: 41.861979166666664vw;
+
+  border: 1px solid #c8cbcc;
+  box-sizing: border-box;
+}
+.manset-button span {
+
+  width: 114px;
+  height: 19px;
+
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9114583333333334vw;
+
+  /* identical to box height */
+
+
+  letter-spacing: 0.01em;
+
+  color: #010101;
+}
+.manset-closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+/* ////////////////////////////////// */
+
+.manset2 {
+  background: white;
+  z-index: 2;
+  /* width: 40%; */
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  /* pointer-events: none; */
+  position: absolute;
+  right: 0;
+}
+.manset-sekil2 {
+  /* background: white; */
+  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-size: cover;
+  z-index: 2;
+  width: 0;
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+}
+.manset-rayon2 {
+  position: absolute;
+  width: 2.0182291666666665vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 150px; */
+
+  left: 3.2552083333333335vw;
+  top: 19.893899204244033vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9765625vw;
+
+  /* font-size: 15px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-abide2 {
+  position: absolute;
+  width: 27.473958333333332vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 188px; */
+
+  left: 3.2552083333333335vw;
+  top: 24.93368700265252vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 1.4322916666666667vw;
+  /* font-size: 22px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+
+.manset-melumat2 {
+  position: absolute;
+
+  width: 27.669270833333332vw;
+  /* height: 47.3474801061008vh; */
+
+  /* left: 50px;
+  top: 246px; */
+
+  left: 3.2552083333333335vw;
+  top: 32.62599469496021vh;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  /* font-size: 14px; */
+  /* line-height: 28px; */
+
+  /* or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-button2 {
+  position: absolute;
+
+  width: 11.263020833333334vw;
+  height: 6.63129973474801vh;
+
+  left: 3.2552083333333335vw;
+  top: 41.861979166666664vw;
+
+  border: 1px solid #c8cbcc;
+  box-sizing: border-box;
+}
+.manset-button2 span {
+
+  width: 114px;
+  height: 19px;
+
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9114583333333334vw;
+
+  /* identical to box height */
+
+
+  letter-spacing: 0.01em;
+
+  color: #010101;
+}
+.manset-closebtn2 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+/* ////////////////////////////////// */
+
+.manset3 {
+  background: white;
+  z-index: 2;
+  /* width: 40%; */
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  /* pointer-events: none; */
+  position: absolute;
+  right: 0;
+}
+.manset-sekil3 {
+  /* background: white; */
+  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-size: cover;
+  z-index: 2;
+  width: 0;
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+}
+.manset-rayon3 {
+  position: absolute;
+  width: 2.0182291666666665vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 150px; */
+
+  left: 3.2552083333333335vw;
+  top: 19.893899204244033vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9765625vw;
+
+  /* font-size: 15px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-abide3 {
+  position: absolute;
+  width: 27.473958333333332vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 188px; */
+
+  left: 3.2552083333333335vw;
+  top: 24.93368700265252vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 1.4322916666666667vw;
+  /* font-size: 22px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+
+.manset-melumat3 {
+  position: absolute;
+
+  width: 27.669270833333332vw;
+  /* height: 47.3474801061008vh; */
+
+  /* left: 50px;
+  top: 246px; */
+
+  left: 3.2552083333333335vw;
+  top: 32.62599469496021vh;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  /* font-size: 14px; */
+  /* line-height: 28px; */
+
+  /* or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-button3 {
+  position: absolute;
+
+  width: 11.263020833333334vw;
+  height: 6.63129973474801vh;
+
+  left: 3.2552083333333335vw;
+  top: 41.861979166666664vw;
+
+  border: 1px solid #c8cbcc;
+  box-sizing: border-box;
+}
+.manset-button3 span {
+
+  width: 114px;
+  height: 19px;
+
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9114583333333334vw;
+
+  /* identical to box height */
+
+
+  letter-spacing: 0.01em;
+
+  color: #010101;
+}
+.manset-closebtn3 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+/* ////////////////////////////////// */
+
+.manset4 {
+  background: white;
+  z-index: 2;
+  /* width: 40%; */
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  /* pointer-events: none; */
+  position: absolute;
+  right: 0;
+}
+.manset-sekil4 {
+  /* background: white; */
+  background-image: url("../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG");
+  background-size: cover;
+  z-index: 2;
+  width: 0;
+  height: 100%;
+  color: #916356;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+}
+.manset-rayon4 {
+  position: absolute;
+  width: 2.0182291666666665vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 150px; */
+
+  left: 3.2552083333333335vw;
+  top: 19.893899204244033vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9765625vw;
+
+  /* font-size: 15px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-abide4 {
+  position: absolute;
+  width: 27.473958333333332vw;
+  /* height: 3.713527851458886vh; */
+
+  /* left: 50px;
+  top: 188px; */
+
+  left: 3.2552083333333335vw;
+  top: 24.93368700265252vh;
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 1.4322916666666667vw;
+  /* font-size: 22px;
+  line-height: 28px; */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+
+.manset-melumat4 {
+  position: absolute;
+
+  width: 27.669270833333332vw;
+  /* height: 47.3474801061008vh; */
+
+  /* left: 50px;
+  top: 246px; */
+
+  left: 3.2552083333333335vw;
+  top: 32.62599469496021vh;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9114583333333334vw;
+  line-height: 1.8229166666666667vw;
+  /* font-size: 14px; */
+  /* line-height: 28px; */
+
+  /* or 200% */
+
+  display: flex;
+  align-items: center;
+
+  color: #3a3d3f;
+}
+.manset-button4 {
+  position: absolute;
+
+  width: 11.263020833333334vw;
+  height: 6.63129973474801vh;
+
+  left: 3.2552083333333335vw;
+  top: 41.861979166666664vw;
+
+  border: 1px solid #c8cbcc;
+  box-sizing: border-box;
+}
+.manset-button4 span {
+
+  width: 114px;
+  height: 19px;
+
+
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9114583333333334vw;
+
+  /* identical to box height */
+
+
+  letter-spacing: 0.01em;
+
+  color: #010101;
+}
+.manset-closebtn4 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: black;
+}
