@@ -28,11 +28,10 @@ import frame_21 from "../Home/assets/Frames/frame_21.png";
 import Menu from "../Menu/Menu";
 
 import { Timeline } from "gsap/gsap-core";
-import { Power2, TimelineLite } from "gsap";
-
-gsap.registerPlugin(Timeline, Power2);
+import { gsap, Power2, TimelineLite } from "gsap";
 
 export default function Home() {
+  gsap.registerPlugin(Timeline, Power2);
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
@@ -283,7 +282,7 @@ export default function Home() {
         </ul>
         <a href="/xerite">
           <button className="home-button">
-            <span className="home-button-span">XƏRİTƏDƏ GÖSTeR</span>
+            <span className="home-button-span">XƏRİTƏDƏ GÖSTƏR</span>
           </button>
         </a>
       </div>

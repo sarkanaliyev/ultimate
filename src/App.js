@@ -73,10 +73,10 @@ function App() {
               "Səkkizguşəli türbə",
             ]}
             routes={[
-              "fuzuli/karvansaray",
-              "fuzuli/qarakopektepe",
-              "fuzuli/haci_elekber_mescidi",
-              "fuzuli/turbe",
+              "cebrayil/xudaferin",
+              "cebrayil/celebir_mescid",
+              "cebrayil/sultan_allahverdi_hamam",
+              "cebrayil/sekkizguseli_turbe",
             ]}
           />
         </Route>
@@ -145,8 +145,8 @@ function App() {
         <Route path="/cebrayil/xudaferin">
           <Abide
             exact
-            rayonName={"Füzuli"}
-            abideName={"Qarğabazar türbəsi"}
+            rayonName={"Cərayıl"}
+            abideName={"Xudafərin körpüsü"}
             abideText={
               "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
             }
@@ -159,8 +159,8 @@ function App() {
         <Route path="/cebrayil/celebir_mescid">
           <Abide
             exact
-            rayonName={"Füzuli"}
-            abideName={"Qarğabazar türbəsi"}
+            rayonName={"Cərayıl"}
+            abideName={"Çələbir məscidi"}
             abideText={
               "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
             }
@@ -173,7 +173,7 @@ function App() {
         <Route path="/cebrayil/sultan_allahverdi_hamam">
           <Abide
             exact
-            rayonName={"Füzuli"}
+            rayonName={"Cərayıl"}
             abideName={"Sultan Allahverdi Hamamı"}
             abideText={
               "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
@@ -187,7 +187,7 @@ function App() {
         <Route path="/cebrayil/sekkizguseli_turbe">
           <Abide
             exact
-            rayonName={"Füzuli"}
+            rayonName={"Cərayıl"}
             abideName={"Səkkizguşəli türbə"}
             abideText={
               "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."

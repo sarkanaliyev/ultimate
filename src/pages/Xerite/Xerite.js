@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import "./Xerite.css";
 
 import { Timeline } from "gsap/gsap-core";
-import { Power2, TimelineLite } from "gsap";
-gsap.registerPlugin(Timeline, Power2);
+import { gsap, Power2, TimelineLite } from "gsap";
 
 import XeriteSag from "./XeriteSag";
 import Menu from "../Menu/Menu";
@@ -17,8 +16,10 @@ import xerite_yasayis from "./assets/xerite-yasayis.png";
 import xerite_karvansaray from "./assets/xerite-karvansaray.png";
 import xerite_turbe from "./assets/xerite-turbe.png";
 import xerite_korpu from "./assets/xerite-korpu.svg";
+import xerite_hamam from "./assets/xerite-hamam.svg";
 
 export default function Xerite() {
+  gsap.registerPlugin(Timeline, Power2);
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
@@ -291,12 +292,12 @@ export default function Xerite() {
                   rRoute: "/cebrayil/xudaferin",
                 },
                 {
-                  rIcon: xerite_karvansaray,
+                  rIcon: xerite_mescid,
                   rText: "Çələbilər məscidi",
                   rRoute: "/cebrayil/celebir_mescid",
                 },
                 {
-                  rIcon: xerite_mescid,
+                  rIcon: xerite_hamam,
                   rText: "Sultan Allahveri hamamı",
                   rRoute: "/cebrayil/sultan_allahverdi_hamam",
                 },
