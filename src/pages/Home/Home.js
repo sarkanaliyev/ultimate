@@ -135,9 +135,10 @@ export default function Home() {
   function handleReverse4(e) {
     tl4.reverse();
   }
-  
+
   useEffect(() => {
-    setTimeout(() => handleClick(), 1000);
+    // setTimeout(() => handleClick(), 1000);
+    handleClick()
   }, []); // <-- empty dependency array
 
 
