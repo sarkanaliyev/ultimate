@@ -8,8 +8,8 @@ import Abideler from "./pages/Abideler/Abideler";
 import Meram from "./pages/Meram/Meram";
 
 import karvansaray from "../src/pages/Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG";
-import karvansarayarxiv from "../src/pages/Abideler/assets/Fuzuli/karvansaray/karvansaray-sonra.jpeg";
-import karvansaraysonra from "../src/pages/Abideler/assets/Fuzuli/karvansaray/k-w.jpeg";
+import karvansarayarxiv from "../src/pages/Abideler/assets/Fuzuli/karvansaray/karvansaray-sonra.jpg";
+import karvansaraysonra from "../src/pages/Abideler/assets/Fuzuli/karvansaray/k-w.jpg";
 import qarakopektepe from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe.JPG";
 import qarakopektepe2 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe2.jpg";
 import qarakopektepe3 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe3.jpg";
