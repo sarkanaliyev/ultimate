@@ -136,12 +136,7 @@ export default function Home() {
   }
   return (
     <div className="home-container">
-      <div
-        className="manset-sekil"
-        style={{
-          backgroundImage: `url(${karvansaray})`,
-        }}
-      ></div>
+      <div className="manset-sekil"></div>
       <div className="manset">
         <a className="manset-closebtn" onClick={handleReverse}>
           &times;
@@ -175,21 +170,22 @@ export default function Home() {
           &times;
         </a>
         <div className="manset-main2">
-          <p className="manset-rayon2">Şuşa</p>
-          <p className="manset-abide2">Yuxarı Gövhər ağa məscidi</p>
+          <p className="manset-rayon2">Füzuli</p>
+          <p className="manset-abide2">
+            Karvansaray, XVII əsr, Qarğabazar kəndi
+          </p>
           <p className="manset-melumat2">
-            Yuxarı Gövhər ağa məscidi Azərbaycan Respublikasının Nazirlər
-            Kabinetinin 2 avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə
-            əhəmiyyətli memarlıq abidəsi kimi (inventar № 344, tarixi-
-            1768—1769-cu illər) dövlət qeydiyyatına alınmışdır. Qarabağ
-            xanlığının mərkəzini Şahbulaq qalasından Şuşaya köçürməyə qərar
-            verən Pənahəli xan yeni şəhər və infrastruktur tikililərini inşa
-            etməyə rəvac verir. 1750–ci illərdə onun göstərişi ilə Şuşa qalası,
-            qala daxilində xan ailəsi üzvləri üçün malikanə və saraylar, o
-            cümlədən məscid də inşa edilir. Şuşada həmin dövrdə bütün tikililər
-            kimi “Yuxarı Gövhər ağa” məscidi də ilkin olaraq kiçik həcmdə inşa
-            edilmişdir. Həmin məscidin memarlıq xüsusiyyətləri haqqında heç nə
-            məlum deyil.
+            Karvansaray kəndin mərkəzində çox da hündür olmayan təpənin döşündə
+            (eni 23,67, uzunu 34,70) inşa olunmuşdur. Elmi mənbələrdə onun
+            tikilmə tarixi 1681-ci il göstərilsə də, karvansaranın memarı məlum
+            deyil. Füzuli rayonundakı Qarğabazar kəndinin mərkəzində Karvansara
+            tikildiyi kəndin adına uyğun olaraq adlandırılsa da, bu tarixi
+            abidəyə bəzən Şah Abbas karvansarası da deyirlər.<br></br>
+            <br></br> Giriş fraqmentdən göründüyü kimi, karvansaranın partalının
+            birinci yarımdairə tağbənd ilə ondan nisbətən böyük olan ikinci
+            oxvari tağbəndləri arasında xüsusi şəkildə yerləşdirilmiş üç ədəd
+            kvadrat formalı daşlardan kənardakılar üzərində zoomorf və həndəsi
+            ornamentlər işlənmişdir.
           </p>
           <button className="manset-button2">
             <span>DAHA ƏTRALI</span>

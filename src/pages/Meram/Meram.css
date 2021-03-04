@@ -12,7 +12,7 @@
       rgba(0, 0, 0, 0) 100%,
       rgba(0, 0, 0, 0.1) 100%
     ),
-    url("../Rayonlar/assets/heykel.jpeg");
+    url("../Rayonlar/assets/heykel.jpg");
   background-size: cover;
   /* background: linear-gradient(180deg, #000000 -112.64%, rgba(0, 0, 0, 0) 76.08%, rgba(0, 0, 0, 0.1) 76.08%); */
 }
