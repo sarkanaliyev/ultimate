@@ -49,7 +49,9 @@ export default function Menu() {
             <p>Qubadlı</p>
             <p>Qazax</p>
             <p>Laşın</p>
-            <p>Şuşa</p>
+            <a href="/susa/abideler">
+              <p>Şuşa</p>
+            </a>
             <p>Zəngilan</p>
           </div>
           <div>

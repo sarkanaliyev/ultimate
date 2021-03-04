@@ -19,10 +19,10 @@ import qarakopektepe4 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qa
 import haci_elekber_mescidi from "../src/pages/Abideler/assets/Fuzuli/haci_elekber_mescidi/haci_elekber_mescidi.jpg";
 import turbe2 from "../src/pages/Abideler/assets/Fuzuli/turbe/turbe2.jpeg";
 
-import celebir_mescid from "../src/pages/Abideler/assets/Cebrayil/celebir_mescid/celebir_mescid.jpeg";
-import xudaferin from "../src/pages/Abideler/assets/Cebrayil/xudaferin/xudaferin.jpeg";
+import celebir_mescid from "../src/pages/Abideler/assets/Cebrayil/celebir_mescid/celebir_mescid.jpg";
+import xudaferin from "../src/pages/Abideler/assets/Cebrayil/xudaferin/xudaferin.jpg";
 import sultan_allahverdi_hamam from "../src/pages/Abideler/assets/Cebrayil/sultan_allahverdi_hamam/sultan_allahverdi_hamam.jpg";
-import sekkizguseli_turbe from "../src/pages/Abideler/assets/Cebrayil/sekkizguseli_turbe/sekkizguseli_turbe.jpeg";
+import sekkizguseli_turbe from "../src/pages/Abideler/assets/Cebrayil/sekkizguseli_turbe/sekkizguseli_turbe.jpg";
 
 import natavan1 from "../src/pages/Abideler/assets/Susa/natavan/natavan1.jpg";
 import natavan2 from "../src/pages/Abideler/assets/Susa/natavan/natavan2.jpeg";
