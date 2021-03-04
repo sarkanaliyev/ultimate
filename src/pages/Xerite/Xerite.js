@@ -4,6 +4,7 @@ import "./Xerite.css";
 
 import { Timeline } from "gsap/gsap-core";
 import { Power2, TimelineLite } from "gsap";
+gsap.registerPlugin(Timeline, Power2);
 
 import XeriteSag from "./XeriteSag";
 import Menu from "../Menu/Menu";

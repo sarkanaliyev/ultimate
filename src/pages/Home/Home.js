@@ -30,6 +30,8 @@ import Menu from "../Menu/Menu";
 import { Timeline } from "gsap/gsap-core";
 import { Power2, TimelineLite } from "gsap";
 
+gsap.registerPlugin(Timeline, Power2);
+
 export default function Home() {
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
@@ -100,26 +102,26 @@ export default function Home() {
       );
     tl3.play();
   }
-   function handleClick4(e) {
-     // handlePic(screenimg);
-     tl4
-       .to(".manset-sekil4", 1, {
-         width: "60%",
-         opacity: 1,
-         ease: Power2.easeOut,
-       })
-       .to(
-         ".manset4",
-         2,
-         {
-           width: "40%",
-           opacity: 1,
-           ease: Power2.easeOut,
-         },
-         "-= 0.5"
-       );
-     tl4.play();
-   }
+  function handleClick4(e) {
+    // handlePic(screenimg);
+    tl4
+      .to(".manset-sekil4", 1, {
+        width: "60%",
+        opacity: 1,
+        ease: Power2.easeOut,
+      })
+      .to(
+        ".manset4",
+        2,
+        {
+          width: "40%",
+          opacity: 1,
+          ease: Power2.easeOut,
+        },
+        "-= 0.5"
+      );
+    tl4.play();
+  }
   function handleReverse(e) {
     tl.reverse();
   }
@@ -281,7 +283,7 @@ export default function Home() {
         </ul>
         <a href="/xerite">
           <button className="home-button">
-            <span className="home-button-span">XƏRİTƏDƏ GÖSTƏR</span>
+            <span className="home-button-span">XƏRİTƏDƏ GÖSTeR</span>
           </button>
         </a>
       </div>
