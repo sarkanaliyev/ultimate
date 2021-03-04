@@ -204,7 +204,7 @@ function App() {
         </Route>
         {/* Susa */}
         <Route path="/susa/natavan">
-          <Abide
+          <Abide2
             exact
             rayonName={"Şuşa"}
             abideName={"X.Natəvanın evi"}
@@ -214,7 +214,7 @@ function App() {
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
             abideEhemiyyet={"Yerli əhəmiyyətli"}
-            images={[natavan1, natavan2, natavan3, natavan4]}
+            images={[natavan1, natavan3, natavan4]}
           />
         </Route>
         <Route path="/susa/yuxari_govher_aga">

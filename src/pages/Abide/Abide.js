@@ -12,27 +12,27 @@ import karvansaraysonra from "../Abideler/assets/Fuzuli/karvansaray/k-w.jpeg";
 import { useState } from "react";
 
 export default function Abide(props) {
-  console.log(props.images);
+  console.log(props.images.length);
 
   let [isgalindex, setIsgalIndex] = useState(0);
 
-  function handleIsgal() {
-    if (isgalindex < 2) {
+  function handleIsgalNext() {
+    if (isgalindex < props.images.length-1) {
       isgalindex += 1;
     }
 
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[2]})`;
+    ).style.backgroundImage = `url(${props.images[isgalindex]})`;
   }
 
-  function handleIsgalNext() {
-    if (isgalindex !== 0) {
+  function handleIsgal() {
+    if (isgalindex > 0) {
       isgalindex -= 1;
     }
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[0]})`;
+    ).style.backgroundImage = `url(${props.images[isgalindex]})`;
   }
 
   function openNav() {
@@ -60,20 +60,18 @@ export default function Abide(props) {
       </a>
 
       <div className="abide-left">
-      
-        {/* <BsArrowLeft
+        <BsArrowLeft
           size={30}
           color={"white"}
           className="isgal-ox"
-          onClick={handleIsgalNext}
+          onClick={handleIsgal}
         />
         <BsArrowRight
           size={30}
           color={"white"}
           className="isgal-ox-sag"
-          onClick={handleIsgal}
-        /> */}
-       
+          onClick={handleIsgalNext}
+        />
       </div>
 
       <div className="abide-right">
