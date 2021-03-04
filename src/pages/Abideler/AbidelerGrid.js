@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 
-import karvansaray from "../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG";
+import karvansaray from "../Abideler/assets/Fuzuli/karvansaray/karvansara1.jpg";
 
 import "./AbidelerGrid.css";
 
