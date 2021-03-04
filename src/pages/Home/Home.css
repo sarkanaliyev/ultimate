@@ -200,7 +200,7 @@ body {
 }
 .manset-sekil {
   /* background: white; */
-  background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG);
+  /* background-image: url(../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG); */
   background-size: cover;
   z-index: 2;
   width: 0;

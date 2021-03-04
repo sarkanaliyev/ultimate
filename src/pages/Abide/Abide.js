@@ -17,20 +17,22 @@ export default function Abide(props) {
   let [isgalindex, setIsgalIndex] = useState(0);
 
   function handleIsgal() {
-    isgalindex += 1;
+    if (isgalindex < 2) {
+      isgalindex += 1;
+    }
 
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[isgalindex]})`;
+    ).style.backgroundImage = `url(${props.images[2]})`;
   }
-  
+
   function handleIsgalNext() {
     if (isgalindex !== 0) {
       isgalindex -= 1;
     }
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[isgalindex]})`;
+    ).style.backgroundImage = `url(${props.images[0]})`;
   }
 
   function openNav() {
@@ -43,7 +45,7 @@ export default function Abide(props) {
   useEffect(() => {
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[0]})`;
+    ).style.backgroundImage = `url(${props.images[1]})`;
   });
 
   return (
@@ -58,8 +60,8 @@ export default function Abide(props) {
       </a>
 
       <div className="abide-left">
-        <p className="isgal-sonra">isgaltext</p>
-        <BsArrowLeft
+        <p className="isgal-sonra">İşğaldan Sonra</p>
+        {/* <BsArrowLeft
           size={30}
           color={"white"}
           className="isgal-ox"
@@ -70,7 +72,13 @@ export default function Abide(props) {
           color={"white"}
           className="isgal-ox-sag"
           onClick={handleIsgal}
-        />
+        /> */}
+        <p className="isgal-ox-sag" onClick={handleIsgal}>
+          Böyük Qayıdışdan Sonra
+        </p>
+        <p className="isgal-ox" onClick={handleIsgalNext}>
+          İşğaldan Əvvəl
+        </p>
       </div>
 
       <div className="abide-right">

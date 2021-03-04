@@ -30,6 +30,7 @@ import Menu from "../Menu/Menu";
 import { Timeline } from "gsap/gsap-core";
 import { gsap, Power2, TimelineLite } from "gsap";
 
+import karvansaray from "../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG";
 export default function Home() {
   gsap.registerPlugin(Timeline, Power2);
   function openNav() {
@@ -135,7 +136,12 @@ export default function Home() {
   }
   return (
     <div className="home-container">
-      <div className="manset-sekil"></div>
+      <div
+        className="manset-sekil"
+        style={{
+          backgroundImage: `url(${karvansaray})`,
+        }}
+      ></div>
       <div className="manset">
         <a className="manset-closebtn" onClick={handleReverse}>
           &times;
