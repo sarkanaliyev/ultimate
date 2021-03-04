@@ -31,6 +31,19 @@ import natavan4 from "../src/pages/Abideler/assets/Susa/natavan/natavan4.jpg";
 
 import govher_aga from "../src/pages/Abideler/assets/Susa/govher_aga/govher-aga.jpg";
 
+import asagi_govher_aga1 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga1.jpg";
+import asagi_govher_aga2 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga2.jpg";
+import asagi_govher_aga3 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga3.jpg";
+import asagi_govher_aga4 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga4.jpg";
+import asagi_govher_aga5 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga5.jpg";
+import asagi_govher_aga6 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga6.jpg";
+import asagi_govher_aga7 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga7.jpg";
+import asagi_govher_aga8 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga8.jpg";
+
+import hamam1 from "../src/pages/Abideler/assets/Susa/hamam/hamam1.jpg";
+import hamam2 from "../src/pages/Abideler/assets/Susa/hamam/hamam2.jpg";
+import hamam3 from "../src/pages/Abideler/assets/Susa/hamam/hamam3.jpg";
+
 function App() {
   return (
     <BrowserRouter>
@@ -46,6 +59,7 @@ function App() {
         <Route exact path="/fuzuli/abideler">
           <Abideler
             exact
+            name={"Füzuli"}
             images={[karvansaray, qarakopektepe, haci_elekber_mescidi, turbe2]}
             names={[
               "Karvansaray, XVII əsr, Qarğabazar kəndi",
@@ -64,6 +78,7 @@ function App() {
         <Route exact path="/cebrayil/abideler">
           <Abideler
             exact
+            name={"Cəbrayıl"}
             images={[
               xudaferin,
               celebir_mescid,
@@ -81,6 +96,30 @@ function App() {
               "cebrayil/celebir_mescid",
               "cebrayil/sultan_allahverdi_hamam",
               "cebrayil/sekkizguseli_turbe",
+            ]}
+          />
+        </Route>
+        <Route exact path="/susa/abideler">
+          <Abideler
+            exact
+            name={"Şuşa"}
+            images={[
+              natavan1,
+              govher_aga,
+              asagi_govher_aga1,
+              hamam1,
+            ]}
+            names={[
+              "X. Natavanın Evi",
+              "Yuxarı Gövhər Ağa Məscidi",
+              "Aşağı Gövhər ağa məscidi",
+              "Şirin Su Hamamı",
+            ]}
+            routes={[
+              "susa/natavan",
+              "susa/yuxari_govher_aga",
+              "susa/asagi_govher_aga",
+              "susa/hamam",
             ]}
           />
         </Route>
@@ -231,32 +270,41 @@ function App() {
             images={[govher_aga]}
           />
         </Route>
-        <Route path="/susa/haci_elekber_mescidi">
+        <Route path="/susa/asagi_govher_aga">
           <Abide
             exact
             rayonName={"Şuşa"}
-            abideName={"Hacı Ələkbər Məscidi"}
+            abideName={"Aşağı Gövhər Ağa Məscidi"}
             abideText={
-              "Füzuli şəhərindəki Hacı Ələkbər məscidi memar Kərbalayı Səfixanın ilkin işlərindəndir. Kitabədə məscidin tikilmə tarixi də – hicri tarixi ilə 1307-ci il göstərilir. Bu tarixi miladi təqviminə çevirəndə 1889–1890-cı illərə uyğun gəlir. Bu dini ocaq Hacı Ələkbər məscidi adlandırılmışdır. Hacı Ələkbər xeyriyyəçi olduğundan o, bu məscidin inşası üçün vəsait ayıraraq, Şuşadan ustalar dəvət edib. Xeyirxah işlərinə hörmət və ehtiram əlaməti olaraq yerli camaat Hacı Ələkbər bəyi öz tikdirdiyi məscidin ibadət zalının sol pəncərələrindən birincisinin yaxınlığında dəfn etmişdir."
+              "Aşağı Gövhər ağa məscidi Azərbaycan Respublikasının Nazirlər Kabinetinin 2 avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə əhəmiyyətli memarlıq abidəsi kimi (inventar № 345, tarixi- XVIII əsr)  dövlət qeydiyyatına alınmışdır.Məscid Şuşa şəhərinin Qapan meydanında yerləşir. Məscid ilk dəfə Şuşanın 1855-ci ilə aid baş planında yaxınlıqda yerləşən mədrəsə ilə birlikdə qeydə alınmışdır. Şəhərin ikinci cümə məscidi olan Aşağı Gövhər ağa məscidi həm Aşağı məscid, həm də Kiçik məscid adları ilə tanınmışdır. Birinci ad onun Yuxarı Gövhər ağa məscidi ilə müqayisədə coğrafi yerləşməsini, ikinci ad isə onun Cümə məscidi ilə müqayisədə ölçülərini bildirir. 1855-ci ilin baş planına əsasən Aşağı məscidin ölçüləri həqiqətən də Yuxarı məscidin ölçülərindən kiçik olmuşdur. Aşağı məscidin əsas girişi şimal-qərb istiqamətdə yerləşir və onun oxu üzbəüz yerləşən mədrəsə binasının girişinin oxu ilə üst-üstə düşür. Bu baxımdan Aşağı məscid kompleksinin həlli Yuxarı məscid kompleksinin kiçildilmiş formasını xatırladır. 1874-1875-ci illərdə Yuxarı məscid kimi, Aşağı məscid kompleksində də əsaslı yenidənqurma işləri aparılmışdır.“Qarabağ – irsimizin əbədi yaddaşıdır” kitabında isə Aşağı məscidin 1868-1870-ci illərdə tikildiyi qeyd olunmuşdur. Yeni məscidin inşası Gövhər ağanın maddi dəstəyi əsasında həyata keçirildiyinə görə sonradan Aşağı məscid həm də Aşağı Gövhər ağa məscidi adı ilə tanınmağa başlamışdır."
             }
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
             abideEhemiyyet={"Yerli əhəmiyyətli"}
-            images={[haci_elekber_mescidi]}
+            images={[
+              asagi_govher_aga1,
+              asagi_govher_aga2,
+              asagi_govher_aga3,
+              asagi_govher_aga4,
+              asagi_govher_aga5,
+              asagi_govher_aga6,
+              asagi_govher_aga7,
+              asagi_govher_aga8,
+            ]}
           />
         </Route>
-        <Route path="/susa/turbe">
+        <Route path="/susa/hamam">
           <Abide
             exact
             rayonName={"Şuşa"}
-            abideName={"Qarğabazar türbəsi"}
+            abideName={"Şirin Su Hamamı"}
             abideText={
-              "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
+              "Orta əsr Azərbaycan şəhərləri kimi musəlman aləminin ənənələrinə gorə hər məhəllənin ictimai hamamı olmalı idi. Onlardanbiri də Mərdinli məhəlləsində, Qaraşarov kucəsində yerləşən “Şirin su” hamamıdır.Bu hamam 1880-ci ildə inşa olunub. Arxiv və biblioqrafik məlumatlara gorə bəzi mənbələrdə hamam Rustəmbəyov qardaşlarınınvəsaiti, digər mənbələrə gorə isə Xan qızı Natəvanın vəsaiti ilə tikilmişdir. Qeyd edək ki, digər hamamlarda istifadə olunan su ərazilərdəki şor quyu sularından olub. Bu hamam isə Xan qızının Şuşaya cəkdirdiyi icməli şirin su ilə təchiz olunmuşdur. Elə adı da “Şirin su” olaraq burdan irəli gəlmişdir. Abidənin uzərində də yazılı hec bir məlumat yoxdur. 1982-ci ildə aparılan olcu işləri zamanı muəyyən olunub ki, hamam uzun muddət istismar olunmadığından ilkin gorkəminin 50%-ni itirmişdir. 1988-1989-cu ildə abidə əsaslı bərpa olunaraq istismara verilmişdir. Şirin su hamamı Şuşa şəhərinin 1992-ci il may ayının 8-nə kimi, yəni Şuşanın ermənilər tərəfindən işğal edilməsinə kimi oz təyinatı uzrə fəaliyyət gostərirdi. Azərbaycan Respublikası Nazirlər Kabinetinin 02 avqust 2001-ci il tarixli 132 nomrəli Qərarı ilə təsdiq edilmiş siyahıda abidənin aid olduğu dovr XVIII əsr qeyd olunsa da, mənbələr uzrə araşdırmalar abidənin XIX əsrə (1880-ci il) tikilisi olduğunu gostərir."
             }
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
             abideEhemiyyet={"Yerli əhəmiyyətli"}
-            images={[turbe2]}
+            images={[hamam1, hamam2, hamam3]}
           />
         </Route>
         {/*  */}

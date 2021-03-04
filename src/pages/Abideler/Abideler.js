@@ -38,7 +38,7 @@ export default function Abideler(props) {
             <BsArrowLeft size={"2.6525198938992043vh"} />
           </a>
         </div>
-        <p className="abideler-rayonlar">Ana səhifə / Rayonlar / Fuzuli</p>
+        <p className="abideler-rayonlar">Ana səhifə / Rayonlar / {props.name}</p>
         <p className="abideler-sub-rayonlar">Abidələr</p>
         <div className="grid-wrap">
           <button className="button-1">

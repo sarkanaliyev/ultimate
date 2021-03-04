@@ -230,13 +230,13 @@ export default function Xerite() {
                 },
                 {
                   rIcon: xerite_mescid,
-                  rText: "Hacı Ələkbər Məscidi, XVll əsr, Qarğabazar kəndi",
-                  rRoute: "/susa/haci_elekber_mescidi",
+                  rText: "Aşağı Gövhər Ağa Məscidi",
+                  rRoute: "/susa/asagi_govher_aga",
                 },
                 {
                   rIcon: xerite_turbe,
-                  rText: "Mirəli türbəsi. Aşağı Veysəlli kəndi",
-                  rRoute: "/susa/turbe",
+                  rText: "Şirin Su Hamamı",
+                  rRoute: "/susa/hamam",
                 },
               ],
             });
