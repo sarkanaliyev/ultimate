@@ -24,10 +24,10 @@ import xudaferin from "../src/pages/Abideler/assets/Cebrayil/xudaferin/xudaferin
 import sultan_allahverdi_hamam from "../src/pages/Abideler/assets/Cebrayil/sultan_allahverdi_hamam/sultan_allahverdi_hamam.jpg";
 import sekkizguseli_turbe from "../src/pages/Abideler/assets/Cebrayil/sekkizguseli_turbe/sekkizguseli_turbe.jpeg";
 
-import natavan1 from "../src/pages/Abideler/assets/Susa/natavan/natavan1.jpeg";
+import natavan1 from "../src/pages/Abideler/assets/Susa/natavan/natavan1.jpg";
 import natavan2 from "../src/pages/Abideler/assets/Susa/natavan/natavan2.jpeg";
-import natavan3 from "../src/pages/Abideler/assets/Susa/natavan/natavan3.jpeg";
-import natavan4 from "../src/pages/Abideler/assets/Susa/natavan/natavan4.jpeg";
+import natavan3 from "../src/pages/Abideler/assets/Susa/natavan/natavan3.jpg";
+import natavan4 from "../src/pages/Abideler/assets/Susa/natavan/natavan4.jpg";
 
 import govher_aga from "../src/pages/Abideler/assets/Susa/govher_aga/govher-aga.jpg";
 

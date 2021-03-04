@@ -31,6 +31,7 @@ import { Timeline } from "gsap/gsap-core";
 import { gsap, Power2, TimelineLite } from "gsap";
 
 import karvansaray from "../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG";
+import { useEffect } from "react";
 export default function Home() {
   gsap.registerPlugin(Timeline, Power2);
   function openNav() {
@@ -134,6 +135,10 @@ export default function Home() {
   function handleReverse4(e) {
     tl4.reverse();
   }
+
+  useEffect(() => {
+    handleClick();
+  });
   return (
     <div className="home-container">
       <div className="manset-sekil"></div>
