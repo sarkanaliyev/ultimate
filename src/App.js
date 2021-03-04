@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "../src/pages/Home/Home";
 import Xerite from "../src/pages/Xerite/Xerite";
 import Abide from "./pages/Abide/Abide";
+import Abide2 from "./pages/Abide/Abide2";
 import Rayonlar from "./pages/Rayonlar/Rayonlar";
 import Abideler from "./pages/Abideler/Abideler";
 import Meram from "./pages/Meram/Meram";
@@ -84,7 +85,7 @@ function App() {
           />
         </Route>
         <Route path="/fuzuli/karvansaray">
-          <Abide
+          <Abide2
             exact
             rayonName={"Füzuli"}
             abideName={"Karvansaray, XVII əsr, Qarğabazar kəndi"}

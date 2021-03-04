@@ -57,6 +57,9 @@
 .menu-container ul div a {
   text-decoration: none;
 }
+.menu-container ul div p:hover {
+  color: blue;
+}
 .menu-container ul div h1 {
   font-family: Palatino Linotype;
   font-style: normal;
@@ -65,7 +68,9 @@
   font-size: 1.7578125vw;
   color: white;
 }
-
+.menu-container ul div h1:hover {
+  color: blue;
+}
 .menu-container ul div p {
   font-family: TT Norms Pro;
   font-style: normal;

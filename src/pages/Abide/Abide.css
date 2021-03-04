@@ -88,20 +88,16 @@
 }
 
 .isgal-ox {
-  position: absolute;
-  /* width: 16px;
-  height: 28px; */
-  left: 141px;
-  top: 671px;
+  display: inline-block;
+  position: fixed;
+  left: 10%;
+  top: 90%;
   cursor: pointer;
-  /* border: 1.6px solid #ffffff; */
-  /* transform: matrix(0, 1, 1, 0, 0, 0); */
-   font-family: Palatino Linotype;
+
+  font-family: Palatino Linotype;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
+  font-size: 0.9114583333333334vw;
 
   text-align: center;
   text-transform: uppercase;
@@ -109,18 +105,16 @@
   color: #ffffff;
 }
 .isgal-ox-sag {
-  position: absolute;
-  /* width: 16px;
-  height: 28px; */
-  left: 541px;
-  top: 671px;
+  display: inline-block;
+  position: fixed;
+  left: 35%;
+  top: 90%;
+
   cursor: pointer;
- font-family: Palatino Linotype;
+  font-family: Palatino Linotype;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
+  font-size: 0.9114583333333334vw;
 
   text-align: center;
   text-transform: uppercase;
@@ -128,20 +122,18 @@
   color: #ffffff;
   /* border: 1.6px solid #ffffff; */
 }
+
 .isgal-sonra {
-  position: absolute;
-  width: 136px;
-  height: 19px;
-  left: 339px;
-  top: 671px;
-  /* top: 651px; */
+  display: inline-block;
+  position: fixed;
+  left: 22.5%;
+  top: 90%;
+  cursor: pointer;
 
   font-family: Palatino Linotype;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
+  font-size: 0.9114583333333334vw;
 
   text-align: center;
   text-transform: uppercase;

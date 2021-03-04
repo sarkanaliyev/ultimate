@@ -35,6 +35,15 @@ export default function Abide(props) {
     ).style.backgroundImage = `url(${props.images[0]})`;
   }
 
+  function handleIsgalText() {
+    // if (isgalindex !== 0) {
+    //   isgalindex -= 1;
+    // }
+    document.querySelector(
+      ".abide-left"
+    ).style.backgroundImage = `url(${props.images[1]})`;
+  }
+
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
@@ -45,7 +54,7 @@ export default function Abide(props) {
   useEffect(() => {
     document.querySelector(
       ".abide-left"
-    ).style.backgroundImage = `url(${props.images[0]})`;
+    ).style.backgroundImage = `url(${props.images[1]})`;
   });
 
   return (
@@ -60,7 +69,9 @@ export default function Abide(props) {
       </a>
 
       <div className="abide-left">
-      
+        <p className="isgal-sonra" onClick={handleIsgalText}>
+          İşğaldan Sonra
+        </p>
         {/* <BsArrowLeft
           size={30}
           color={"white"}
@@ -73,7 +84,12 @@ export default function Abide(props) {
           className="isgal-ox-sag"
           onClick={handleIsgal}
         /> */}
-       
+        <p className="isgal-ox-sag" onClick={handleIsgal}>
+          Böyük Qayıdışdan Sonra
+        </p>
+        <p className="isgal-ox" onClick={handleIsgalNext}>
+          İşğaldan Əvvəl
+        </p>
       </div>
 
       <div className="abide-right">
