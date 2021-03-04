@@ -137,8 +137,8 @@ export default function Home() {
   }
 
   useEffect(() => {
-    // setTimeout(() => handleClick(), 1000);
-    handleClick();
+    setTimeout(() => handleClick(), 1000);
+    // handleClick();
   }, []); // <-- empty dependency array
 
   return (
@@ -221,30 +221,8 @@ export default function Home() {
             hovuz və muxtəlif xidməti tikililər olmuşdur.Xurşidbanu ailənin
             yeganə övladı, həm də Qarabağ xanlığının sоnuncu vərəsəsi оlduğu
             ücün оnu sarayda “Durru yeкta” (Təк inci), el arasında isə “Xan
-            qızı” cağırırdılar. Zəmanəsinin görkəmli şəxsiyyətlərindən olub,
-            təkcə Azərbaycanda deyil, bütün Zaqafqaziyada xeyirxahlığı və
-            mesenatlığı ilə tanınmışdı. O, kasıblara əl tutmuş, Şuşaya su
-            cəkdirmişdi. Cəkdirdiyi bulaq “Xan qızı bulağı”adı ilə məşhur idi.
-            Xurşidbanu Natəvan 1897-ci il oktyabrın 1-də vəfat etmişdir və
-            məzarı Ağdamın “İmarət” qəbiristanlığındadır. Təssüflə qeyd etmək
-            yerinə düşər ki, “Xan qızı”nın məzarı da məhv edilərək erməni
-            vandalizminin qurbanına çevrilmişdir.Sovet donəmində Bülbülün
-            təşəbbüsü ilə Azərbaycan SSR Xalq Maarif Komissarlığının 10 oktyabr
-            1932-ci il tarixli Qərarına əsasən rəsmi olaraq Şuşa Musiqi Məktəbi
-            yaradılmışdır (bu həm də Azərbaycanda yaradılan ilk uşaq musiqi
-            məktəbi idi). Məktəb Xan qızı Natəvanın evi olmuş binada fəaliyyətə
-            başlamışdır. Ata mülkünün binasında isə uşaq sanatoriyası
-            yerləşdirilmişdir. 1987-ci ildə musiqi məktəbi digər binaya
-            köcürülərək binada bərpa işləri aparıldıqdan sonra Nizami Gəncəvi
-            adına Milli Azərbaycan Ədəbiyyatı Muzeyinin filialı olan Xurşidbanu
-            Natəvanın evi ev-muzeyi kimi fəaliyyətə başlamışdır. 8 may 1992-ci
-            ildə Şuşa şəhəri Ermənistan silahlı qüvvələri tərəfindən işğal
-            olunduqdan sonra saray kompleksi də dağıntıya məruz qalmışdır.Bu
-            abidə iki evdən ibarətdir ki, hazırda hər iki evin yalnız
-            divarlarının bir hissəsi qalmışdır. İşğaldan sonra ermənilər
-            tərəfindən dam örtüyü tamamilə, eləcə də divarlarının bir hissəsi
-            uçurulmuş, tikililərin hər ikisinin ilkin görkəminə ciddi xələl
-            dəymişdir.
+            qızı” cağırırdılar. 
+            
           </p>
           <button className="manset-button3">
             <span>DAHA ƏTRALI</span>

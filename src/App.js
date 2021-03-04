@@ -103,12 +103,7 @@ function App() {
           <Abideler
             exact
             name={"Şuşa"}
-            images={[
-              natavan1,
-              govher_aga,
-              asagi_govher_aga1,
-              hamam1,
-            ]}
+            images={[natavan1, govher_aga, asagi_govher_aga1, hamam1]}
             names={[
               "X. Natavanın Evi",
               "Yuxarı Gövhər Ağa Məscidi",
@@ -191,7 +186,7 @@ function App() {
             rayonName={"Cərayıl"}
             abideName={"Xudafərin körpüsü"}
             abideText={
-              "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
+              "11 tağlı Xudafərin körpüsü (inventar №12, XI-XII əsrlər) və 15 tağlı Xudafərin körpüsü (inventar №13, XIII əsr) Azərbaycan Respublikası Nazirlər Kabinetinin 2 avqust 2001-ci il tarixli, 132 nömrəli qərarı ilə dünya əhəmiyyətli memarlıq abidələrinin siyahısına salınmışdır. Tikilmə tarixinə görə dövrünün ən əzəmətli mühəndis qurğularından olan Xudafərin körpüləri Azərbaycan Respublikası ilə İran İslam Respublikası arasında yerləşən möhtəşəm tarixi abidədir. Makedoniyalı İsgəndər, Elxani hökmdarı Hülakü xan və Şah İsmayılın rəhbərliyi ilə Qızılbaşlar öz yürüşləri zamanı bu körpülərdən istifadə etmişdir. Transkontinental yollar, o sıradan Böyük ipək Yolu üzərində olduğundan Xudafərin körpüləri yüzillər boyu yalnız ölkədaxili və ölkələrarası əlaqələrdə deyil, qitələrarası münasibətlərin, həmçinin ticarət yolu kimi də əhəmiyyətli rol oynamışdır. Müxtəlif çağlarda ayrı-ayrı xalqların və qüvvələrin miqrasiyasını istiqamətləndirən Xudafərin körpüləri Yaxın və Orta Şərq regionunun həm ən əzəmətli, həm də ən məşhur körpülərindən sayılır. Araz çayı üzərində tikilmiş 15 aşırımlı körpü antik dövrdə inşa edilmiş körpünün dayaqları üstündə qurulmuşdur. Coğrafi mövqeyinin əlverişli olması, yəni sahillərin daha yaxın olaraq sal qayalarla əhatələnməsi burada körpünün tikilməsinə şərait yaratmışdır. 15 aşırımlı körpünün tağları bişmiş kərpicdən yığılsa da, doldurucu kimi çay daşından istifadə edilmişdir. Dayaqlar sərt qayanın üstündə qoyulduğundan aşırımların ölçülərində fərq vardır. 15 aşırımlı körpüdən 750 metrə qədər məsafədə yerləşən, Elxanilər dövründə (XIII əsrdə) tikilmiş 11 aşırımlı körpü daha əzəmətli görünür. Körpü tikinti materialı kimi yonulmuş sal qaya daşından inşa edilmişdir. Burada da dayaqlar çayın içərisindəki qayaların üstündə tikilmişdir."
             }
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
@@ -205,7 +200,7 @@ function App() {
             rayonName={"Cərayıl"}
             abideName={"Çələbir məscidi"}
             abideText={
-              "Füzuli rayonunun Qarğabazar kəndində yerləşən XVIII əsrə aid tarix-memarlıq abidəsi olan türbə təməldə səkkizguşəli plana malikdir. Türbənin inşası zamanı bişmiş qırmıızı kərpiclərdən istifadə edilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır.Arazboyu ərazinin digər səkkizguşəli türbələrindən fərqli olaraq kərpic, Qarğabazar türbəsinin inşasında əsas inşaat materialı olaraq seçilmişdir. Daha əvvəlki dövrlərdə də kərpic əsas inşaat materialı kimi istifadə edilsə də, bu, heç vaxt türbə inşasına xas edilmirdi. Bu baxımdan Füzuli rayonunun Babı kəndi ərazisindəki Şeyx Babı türbəsi və onun ətrafındakı dini kompleks xarakterik xüsusiyyət daşıyır. Belə ki, kompleks ərazisinə daxil olan bütün tikililər (məscid, minarə və sair) kərpicdən inşa edilsə də, Şeyx Babı türbəsi daşdan tikilmişdir. Qarğabazar türbəsinin əsas kompozisiya üstünlüyü qeyri-adi böyüklüyə malik olan giriş qapısıdır. Bu cür böyük giriş XVI-XIX əsrdə nəinki abidənin yerləşdiyi Qarabağ və Arazboyu ərazi, o cümlədən, ümumilikdə Şimali Azərbaycan ərazisi üçün xarakterik deyildir. Şirvan və Arran memarları XIX əsrə kimi türbə inşası zamanı əvvəlki ustadların kompozisiya yanaşmalarını saxlamış, türbələr üçün kiçik giriş qapısı inşa etməklə ümumilikdə tikiliyə monumental xarakter verə bilmişlər."
+              "Cəbrayıl rayonunun Çələbilər kəndi ərazisində tikintisi XVI əsrə aid olan bu əzəmətli məscid Məhəmməd İbn Hacı Qaraman Əhmədli tərəfindən hicri 1088, miladi 1678-ci ildə tikilib. Dini və dünyəvi elmlərin tədris edildiyi bu məscid-mədrəsədə ən böyük din xadimləri alimlər dərs deyiblər. XVIII əsr məşhur Azərbaycan klassik şairi Molla Vəli Vidadi də bu mədrəsədə dərs vermişdir. Məscid kompleksi ərazisində xüsusi otaqlar, hücrələr olub ki, bu hücrələrdə şagirdlərə dərs keçilmişdir. İşğaldan əvvəl bu məscid-mədrəsə kompleksi yüksək səviyyədə bərpa olunmuş, ilkin formasına gətirilmişdir."
             }
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
