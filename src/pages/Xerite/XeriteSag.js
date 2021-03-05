@@ -2,6 +2,7 @@ import "./XeriteSag.css";
 import { BsArrowLeft } from "react-icons/bs";
 
 export default function XeriteSag(props) {
+  console.log(props.routeName);
   return (
     <div className="xerite-sag-container">
       <div className="xerite-sag-main-div">
@@ -19,10 +20,11 @@ export default function XeriteSag(props) {
             </li>
           ))}
         </ul>
-
-        <button className="xerite-sag-button">
-          <span className="xerite-sag-button-span">DAHA ÇOX</span>
-        </button>
+        <a href={"/" + props.routeName}>
+          <button className="xerite-sag-button">
+            <span className="xerite-sag-button-span">DAHA ÇOX</span>
+          </button>
+        </a>
         {/* </div> */}
       </div>
     </div>

@@ -25,6 +25,8 @@ export default function Abideler(props) {
         <a href="/">
           <img src={logo} className="abideler-logo" />
         </a>
+        <p className="abideler-az">AZ</p>
+
         <a href="#" class="abideler-hamburger" onClick={openNav}>
           <div class="abideler-one"></div>
           <div class="abideler-two"></div>
@@ -38,7 +40,9 @@ export default function Abideler(props) {
             <BsArrowLeft size={"2.6525198938992043vh"} />
           </a>
         </div>
-        <p className="abideler-rayonlar">Ana səhifə / Rayonlar / {props.name}</p>
+        <p className="abideler-rayonlar">
+          Ana səhifə / Rayonlar / {props.name}
+        </p>
         <p className="abideler-sub-rayonlar">Abidələr</p>
         <div className="grid-wrap">
           <button className="button-1">

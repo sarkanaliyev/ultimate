@@ -1,5 +1,5 @@
 import "./Abide.css";
-import logored from "../Xerite/assets/logored.png";
+import logored from "../Home/assets/medeniyyet-nazirliyi-logo.png";
 import { BsArrowLeft } from "react-icons/bs";
 import AbideMelumat from "./AbideMelumat";
 import { useEffect } from "react";
@@ -17,7 +17,7 @@ export default function Abide(props) {
   let [isgalindex, setIsgalIndex] = useState(0);
 
   function handleIsgalNext() {
-    if (isgalindex < props.images.length-1) {
+    if (isgalindex < props.images.length - 1) {
       isgalindex += 1;
     }
 
@@ -50,9 +50,10 @@ export default function Abide(props) {
 
   return (
     <div>
-      <a href="/">
+      {/* <a href="/">
         <img src={logored} className="abide-logo" />
-      </a>
+      </a> */}
+      <p className="abide-az">AZ</p>
       <a href="#" class="abide-hamburger" onClick={openNav}>
         <div class="abide-one"></div>
         <div class="abide-two"></div>
@@ -60,6 +61,11 @@ export default function Abide(props) {
       </a>
 
       <div className="abide-left">
+        <div className="ld">
+          <a href="/">
+            <img src={logored} className="abide-logo" />
+          </a>
+        </div>
         <BsArrowLeft
           size={30}
           color={"white"}
@@ -69,7 +75,7 @@ export default function Abide(props) {
         <BsArrowRight
           size={30}
           color={"white"}
-          className="isgal-ox-sag"
+          className="isgal-ox-sag-2"
           onClick={handleIsgalNext}
         />
       </div>
@@ -89,7 +95,15 @@ export default function Abide(props) {
               abideEhemiyyet={props.abideEhemiyyet}
             />
           </div>
-          <p className="abide-right-text">{props.abideText}</p>
+          <p className="abide-right-text">
+            {props.abideText1}
+            <br></br>
+            <br></br>
+            {props.abideText2}
+            <br></br>
+            <br></br>
+            {props.abideText3}
+          </p>
           <p className="abide-right-qalereya">Qalereya</p>
           <QalereyaGrid images={props.images} />
         </div>

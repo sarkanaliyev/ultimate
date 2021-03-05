@@ -16,6 +16,8 @@ export default function Rayonlar() {
         <a href="/">
           <img src={logo} className="rayonlar-logo" />
         </a>
+        <p className="rayonlar-az">AZ</p>
+
         <a href="#" class="rayonlar-hamburger" onClick={openNav}>
           <div class="rayonlar-one"></div>
           <div class="rayonlar-two"></div>

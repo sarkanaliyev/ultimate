@@ -11,10 +11,10 @@ import Menu from "../Menu/Menu";
 import xrt from "./assets/xerite-transparant.png";
 import logored from "./assets/logored.png";
 
-import xerite_mescid from "./assets/xerite-mescid.png";
-import xerite_yasayis from "./assets/xerite-yasayis.png";
+import xerite_mescid from "./assets/mosque.svg";
+import xerite_yasayis from "./assets/city-hall.svg";
 import xerite_karvansaray from "./assets/xerite-karvansaray.png";
-import xerite_turbe from "./assets/xerite-turbe.png";
+import xerite_turbe from "./assets/turbe.svg";
 import xerite_korpu from "./assets/xerite-korpu.svg";
 import xerite_hamam from "./assets/xerite-hamam.svg";
 
@@ -29,6 +29,7 @@ export default function Xerite() {
   }
 
   const [rayonName, setRayonName] = useState("");
+  const [routeName, setRouteName] = useState("");
 
   const [obyekt, setObyekt] = useState([]);
 
@@ -36,13 +37,14 @@ export default function Xerite() {
 
   const handleClick = (obj) => {
     setRayonName(obj.rName);
+    setRouteName(obj.routeName);
 
     setObyekt(obj.rList);
     console.log(obj.rList);
     tl.to(".xerite-div", 1, {
       position: "absolute",
       width: "60%",
-      //   height: "100%",
+      height: "100%",
       top: 0,
       left: 0,
       //   transform: "none",
@@ -69,6 +71,8 @@ export default function Xerite() {
       <a href="/">
         <img src={logored} className="xerite-logo-red" />
       </a>
+      <p className="xerite-az">AZ</p>
+
       <a href="#" class="xerite-hamburger" onClick={openNav}>
         <div class="xerite-one"></div>
         <div class="xerite-two"></div>
@@ -77,7 +81,7 @@ export default function Xerite() {
 
       <div className="xerite-div">
         <img className="xerite" src={xrt} />
-        <button
+        {/* <button
           className="agdam"
           onClick={() => {
             handleClick({
@@ -107,13 +111,14 @@ export default function Xerite() {
               ],
             });
           }}
-        ></button>
+        ></button> */}
         <p className="toolpit-agdam">Ağdam</p>
 
         <button
           className="fuzuli"
           onClick={() => {
             handleClick({
+              routeName: "fuzuli/abideler",
               rName: "Füzuli",
               rList: [
                 {
@@ -144,7 +149,7 @@ export default function Xerite() {
         </button>
         <p className="toolpit-fuzuli">Füzuli</p>
 
-        <button
+        {/* <button
           className="kelbecer"
           onClick={() => {
             handleClick({
@@ -175,10 +180,10 @@ export default function Xerite() {
           }}
         >
           kelbecer
-        </button>
+        </button> */}
         <p className="toolpit-kelbecer">Kəlbəcər</p>
 
-        <button
+        {/* <button
           className="lacin"
           onClick={() => {
             handleClick({
@@ -209,13 +214,14 @@ export default function Xerite() {
           }}
         >
           lacin
-        </button>
+        </button> */}
         <p className="toolpit-lacin">Laçın</p>
 
         <button
           className="susa"
           onClick={() => {
             handleClick({
+              routeName: "susa/abideler",
               rName: "Şuşa",
               rList: [
                 {
@@ -224,7 +230,7 @@ export default function Xerite() {
                   rRoute: "/susa/natavan",
                 },
                 {
-                  rIcon: xerite_karvansaray,
+                  rIcon: xerite_mescid,
                   rText: "Yuxarı Gövhər ağa məscidi",
                   rRoute: "/susa/yuxari_govher_aga",
                 },
@@ -234,7 +240,7 @@ export default function Xerite() {
                   rRoute: "/susa/asagi_govher_aga",
                 },
                 {
-                  rIcon: xerite_turbe,
+                  rIcon: xerite_hamam,
                   rText: "Şirin Su Hamamı",
                   rRoute: "/susa/hamam",
                 },
@@ -246,7 +252,7 @@ export default function Xerite() {
         </button>
         <p className="toolpit-susa">Şuşa</p>
 
-        <button
+        {/* <button
           className="qubadli"
           onClick={() => {
             handleClick({
@@ -277,13 +283,14 @@ export default function Xerite() {
           }}
         >
           qubadli
-        </button>
+        </button> */}
         <p className="toolpit-qubadli">Qubadlı</p>
 
         <button
           className="cebrayil"
           onClick={() => {
             handleClick({
+              routeName: "cebrayil/abideler",
               rName: "Cəbrayıl",
               rList: [
                 {
@@ -314,7 +321,7 @@ export default function Xerite() {
         </button>
         <p className="toolpit-cebrayil">Cəbrayıl</p>
 
-        <button
+        {/* <button
           className="zengilan"
           onClick={() => {
             handleClick({
@@ -345,12 +352,12 @@ export default function Xerite() {
           }}
         >
           zengilan
-        </button>
+        </button> */}
         <p className="toolpit-zengilan">Zəngilan</p>
       </div>
       {/* <div class="vl"></div> */}
 
-      <XeriteSag name={rayonName} obyekt={obyekt} />
+      <XeriteSag name={rayonName} routeName={routeName} obyekt={obyekt} />
 
       <Menu />
     </div>

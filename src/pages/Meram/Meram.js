@@ -16,6 +16,8 @@ function Meram() {
         <a href="/">
           <img src={logo} className="meram-logo" />
         </a>
+        <p className="meram-az">AZ</p>
+
         <a href="#" class="meram-hamburger" onClick={openNav}>
           <div class="meram-one"></div>
           <div class="meram-two"></div>

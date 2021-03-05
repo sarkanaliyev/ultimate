@@ -17,7 +17,22 @@
   background-size: cover;
   /* background: linear-gradient(180deg, #000000 -112.64%, rgba(0, 0, 0, 0) 76.08%, rgba(0, 0, 0, 0.1) 76.08%); */
 }
+.abideler-az {
+  position: fixed;
+  /* width: 24px;
+  height: 22px; */
+  right: 125px;
+  top: 35px;
 
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.0416666666666667vw;
+
+  text-transform: uppercase;
+
+  color: #fff;
+}
 .abideler-hamburger {
   position: absolute;
   /* width: 42px;

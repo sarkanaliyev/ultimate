@@ -11,7 +11,7 @@
 }
 .xerite-sag-main-div {
   /* background-color: black; */
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 5%;
   display: inline-block;
   text-align: left;
@@ -44,7 +44,7 @@
   width: 100%;
   /* display: inline-block; */
   /* background-color: gray; */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   /* vertical-align: middle; */
   display: inline-flex;
   align-items: center;
@@ -77,6 +77,7 @@
   height: 50px;
 
   background: #3a3d3f;
+  cursor: pointer;
 }
 .xerite-sag-button-span {
   font-family: Palatino Linotype;

@@ -31,6 +31,10 @@ import { Timeline } from "gsap/gsap-core";
 import { gsap, Power2, TimelineLite } from "gsap";
 
 import karvansaray from "../Abideler/assets/Fuzuli/karvansaray/karvansaray.JPG";
+
+import ReactAudioPlayer from "react-audio-player";
+import susanitq from "./assets/susa-nitq.mp3";
+
 import { useEffect } from "react";
 export default function Home() {
   gsap.registerPlugin(Timeline, Power2);
@@ -45,21 +49,28 @@ export default function Home() {
   const tl2 = new Timeline({ paused: true });
   const tl3 = new Timeline({ paused: true });
   const tl4 = new Timeline({ paused: true });
+
+  // const tl5 = new Timeline({ defaults: { ease: "power1.out" } });
+
   const handleClick = () => {
     tl.to(".manset-sekil", 1.5, {
       width: "60%",
       opacity: 1,
       ease: Power2.easeOut,
-    }).to(
-      ".manset",
-      2,
-      {
-        width: "40%",
-        opacity: 1,
-        ease: Power2.easeOut,
-      },
-      "-= 0.5"
-    );
+    })
+      .to(
+        ".manset",
+        2,
+        {
+          width: "40%",
+          opacity: 1,
+          ease: Power2.easeOut,
+        },
+        "-= 0.5"
+      )
+      .to(".home-button", 1, {
+        pointerEvents: "none",
+      });
 
     tl.play();
   };
@@ -80,7 +91,10 @@ export default function Home() {
           ease: Power2.easeOut,
         },
         "-= 0.5"
-      );
+      )
+      .to(".home-button", 1, {
+        pointerEvents: "none",
+      });
     tl2.play();
   }
   function handleClick3(e) {
@@ -100,7 +114,10 @@ export default function Home() {
           ease: Power2.easeOut,
         },
         "-= 0.5"
-      );
+      )
+      .to(".home-button", 1, {
+        pointerEvents: "none",
+      });
     tl3.play();
   }
   function handleClick4(e) {
@@ -120,7 +137,10 @@ export default function Home() {
           ease: Power2.easeOut,
         },
         "-= 0.5"
-      );
+      )
+      .to(".home-button", 1, {
+        pointerEvents: "none",
+      });
     tl4.play();
   }
   function handleReverse(e) {
@@ -137,8 +157,9 @@ export default function Home() {
   }
 
   useEffect(() => {
-    setTimeout(() => handleClick(), 1000);
-    // handleClick();
+    // setTimeout(() => {
+    //   tl5.to(".slider", { y: "-100%", duration: 1.5 });
+    // }, 20000);
   }, []); // <-- empty dependency array
 
   return (
@@ -158,16 +179,19 @@ export default function Home() {
             1768—1769-cu illər) dövlət qeydiyyatına alınmışdır. Qarabağ
             xanlığının mərkəzini Şahbulaq qalasından Şuşaya köçürməyə qərar
             verən Pənahəli xan yeni şəhər və infrastruktur tikililərini inşa
-            etməyə rəvac verir. 1750–ci illərdə onun göstərişi ilə Şuşa qalası,
-            qala daxilində xan ailəsi üzvləri üçün malikanə və saraylar, o
-            cümlədən məscid də inşa edilir. Şuşada həmin dövrdə bütün tikililər
-            kimi “Yuxarı Gövhər ağa” məscidi də ilkin olaraq kiçik həcmdə inşa
+            etməyə rəvac verir.<br></br>
+            <br></br> 1750–ci illərdə onun göstərişi ilə Şuşa qalası, qala
+            daxilində xan ailəsi üzvləri üçün malikanə və saraylar, o cümlədən
+            məscid də inşa edilir. Şuşada həmin dövrdə bütün tikililər kimi
+            “Yuxarı Gövhər ağa” məscidi də ilkin olaraq kiçik həcmdə inşa
             edilmişdir. Həmin məscidin memarlıq xüsusiyyətləri haqqında heç nə
             məlum deyil.
           </p>
-          <button className="manset-button">
-            <span>DAHA ƏTRALI</span>
-          </button>
+          <a href="/susa/yuxari_govher_aga">
+            <button className="manset-button">
+              <span>DAHA ƏTRALI</span>
+            </button>
+          </a>
         </div>
       </div>
 
@@ -194,9 +218,11 @@ export default function Home() {
             kvadrat formalı daşlardan kənardakılar üzərində zoomorf və həndəsi
             ornamentlər işlənmişdir.
           </p>
-          <button className="manset-button2">
-            <span>DAHA ƏTRALI</span>
-          </button>
+          <a href="/fuzuli/karvansaray">
+            <button className="manset-button2">
+              <span>DAHA ƏTRALI</span>
+            </button>
+          </a>
         </div>
       </div>
 
@@ -213,20 +239,19 @@ export default function Home() {
             avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə əhəmiyyətli
             memarlıq abidəsi kimi (inventar № 342, tarixi- XVIII əsr) dövlət
             qeydiyyatına alınmışdır.Xurşidbanu Natəvanın evi Şuşanın ilkin inşa
-            edilmiş mülklərindən biridir. Sifarişçisi Xan qızı olan sarayın
-            tikilmə tarixi və kim tərəfindən inşa olunduğu haqqında dəqiq
-            məlumat yoxdur. XIX əsrə aid olunur. Saray böyük bir ərazini əhatə
-            edən həyətdən ibarətdir. Bu həyətdə Natəvanın özünün evi, ata mülkü
-            Mehdiqulu xanın imarəti, böyük buzxana, boyuk düzbucaqlı formada
-            hovuz və muxtəlif xidməti tikililər olmuşdur.Xurşidbanu ailənin
-            yeganə övladı, həm də Qarabağ xanlığının sоnuncu vərəsəsi оlduğu
-            ücün оnu sarayda “Durru yeкta” (Təк inci), el arasında isə “Xan
-            qızı” cağırırdılar. 
-            
+            edilmiş mülklərindən biridir. XIX əsrə aid olunur.<br></br>
+            <br></br> Saray böyük bir ərazini əhatə edən həyətdən ibarətdir. Bu
+            həyətdə Natəvanın özünün evi, ata mülkü Mehdiqulu xanın imarəti,
+            böyük buzxana, boyuk düzbucaqlı formada hovuz və muxtəlif xidməti
+            tikililər olmuşdur.Xurşidbanu ailənin yeganə övladı, həm də Qarabağ
+            xanlığının sоnuncu vərəsəsi оlduğu ücün оnu sarayda “Durru yeкta”
+            (Təк inci), el arasında isə “Xan qızı” cağırırdılar.
           </p>
-          <button className="manset-button3">
-            <span>DAHA ƏTRALI</span>
-          </button>
+          <a href="/susa/natavan">
+            <button className="manset-button3">
+              <span>DAHA ƏTRALI</span>
+            </button>
+          </a>
         </div>
       </div>
 
@@ -243,17 +268,19 @@ export default function Home() {
             Kabinetinin 2 avqust 2001-ci il tarixli 132 nömrəli Qərarı ilə ölkə
             əhəmiyyətli memarlıq abidəsi kimi (inventar № 345, tarixi- XVIII
             əsr) dövlət qeydiyyatına alınmışdır.Məscid Şuşa şəhərinin Qapan
-            meydanında yerləşir. Məscid ilk dəfə Şuşanın 1855-ci ilə aid baş
-            planında yaxınlıqda yerləşən mədrəsə ilə birlikdə qeydə alınmışdır.
-            Şəhərin ikinci cümə məscidi olan Aşağı Gövhər ağa məscidi həm Aşağı
-            məscid, həm də Kiçik məscid adları ilə tanınmışdır. Birinci ad onun
-            Yuxarı Gövhər ağa məscidi ilə müqayisədə coğrafi yerləşməsini,
-            ikinci ad isə onun Cümə məscidi ilə müqayisədə ölçülərini bildirir.
-           
+            meydanında yerləşir.<br></br>
+            <br></br> Məscid ilk dəfə Şuşanın 1855-ci ilə aid baş planında
+            yaxınlıqda yerləşən mədrəsə ilə birlikdə qeydə alınmışdır. Şəhərin
+            ikinci cümə məscidi olan Aşağı Gövhər ağa məscidi həm Aşağı məscid,
+            həm də Kiçik məscid adları ilə tanınmışdır. Birinci ad onun Yuxarı
+            Gövhər ağa məscidi ilə müqayisədə coğrafi yerləşməsini, ikinci ad
+            isə onun Cümə məscidi ilə müqayisədə ölçülərini bildirir.
           </p>
-          <button className="manset-button4">
-            <span>DAHA ƏTRALI</span>
-          </button>
+          <a href="/susa/asagi_govher_aga">
+            <button className="manset-button4">
+              <span>DAHA ƏTRALI</span>
+            </button>
+          </a>
         </div>
       </div>
       <div className="home-container">
@@ -261,6 +288,8 @@ export default function Home() {
           <a href="/">
             <img src={logo} className="home-logo" />
           </a>
+          <p className="home-az">AZ</p>
+
           <a href="#" class="home-hamburger" onClick={openNav}>
             <div class="home-one"></div>
             <div class="home-two"></div>
@@ -320,6 +349,19 @@ export default function Home() {
         <img src={frame_21} className="frame21" />
       </div>
       <Menu />
+      {/* <div className="slider">
+        <div className="preview-container">
+          <ReactAudioPlayer src={susanitq} autoPlay={true} />
+
+          <div className="speech-container">
+            <p className="speech">Əziz Şuşa, sən azadsan!</p>
+            <p className="speech-1"> Əziz Şuşa, biz qayıtmışıq! </p>
+            <p className="speech-2">Əziz Şuşa, biz səni dirçəldəcəyik!</p>
+          </div>
+          <p className="president">Ilham Əliyev</p>
+          <p className="presidentx">Azerbaycan Respublikasinin Prezidenti</p>
+        </div>
+      </div> */}
     </div>
   );
 }

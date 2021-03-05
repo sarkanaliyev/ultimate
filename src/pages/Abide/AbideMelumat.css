@@ -6,6 +6,10 @@
   font-size: 0.9114583333333334vw;
   margin: 0;
   padding: 0;
+  font-family: Palatino Linotype;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 599px) {
