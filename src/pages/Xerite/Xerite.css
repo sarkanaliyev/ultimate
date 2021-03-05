@@ -239,111 +239,109 @@
   opacity: 1;
 }
 
-
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
+/* @media only screen and (min-width: 1224px) {
+  .xerite {
+    height: 80%;
+    max-width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+} */
 
 @media (min-width: 1800px) {
- 
-.agdam {
-  /* background-color: red; */
-  position: absolute;
-  top: 25%;
-  left: 53%;
-  height: 13.26259946949602vh;
-  width: 17.26259946949602vh;
-  cursor: pointer;
-  /* opacity: 0; */
-}
+  .agdam {
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+    left: 53%;
+    height: 13.26259946949602vh;
+    width: 17.26259946949602vh;
+    cursor: pointer;
+    /* opacity: 0; */
+  }
 
-.fuzuli {
-  /* background-color: red; */
-  position: absolute;
-  top: 47%;
-  left: 65%;
-  height: 13.26259946949602vh;
-  width: 13.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
+  .fuzuli {
+    /* background-color: red; */
+    position: absolute;
+    top: 47%;
+    left: 65%;
+    height: 13.26259946949602vh;
+    width: 13.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
+  .kelbecer {
+    /* background-color: red; */
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 15.26259946949602vh;
+    width: 15.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
-.kelbecer {
-  /* background-color: red; */
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  height: 15.26259946949602vh;
-  width: 15.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
+  .lacin {
+    /* background-color: red; */
+    position: absolute;
+    top: 39%;
+    left: 28%;
+    height: 13.26259946949602vh;
+    width: 13.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
-.lacin {
-  /* background-color: red; */
-  position: absolute;
-  top: 39%;
-  left: 28%;
-  height: 13.26259946949602vh;
-  width: 13.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
+  .susa {
+    /* background-color: red; */
+    position: absolute;
+    top: 44%;
+    left: 43%;
+    height: 9.26259946949602vh;
+    width: 9.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
-.susa {
-  /* background-color: red; */
-  position: absolute;
-  top: 44%;
-  left: 43%;
-  height: 9.26259946949602vh;
-  width: 9.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
+  .qubadli {
+    /* background-color: red; */
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    height: 11.26259946949602vh;
+    width: 11.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
-.qubadli {
-  /* background-color: red; */
-  position: absolute;
-  top: 60%;
-  left: 40%;
-  height: 11.26259946949602vh;
-  width: 11.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
+  .cebrayil {
+    /* background-color: red; */
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    height: 11.26259946949602vh;
+    width: 11.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 
-
-.cebrayil {
-  /* background-color: red; */
-  position: absolute;
-  top: 63%;
-  left: 53%;
-  height: 11.26259946949602vh;
-  width: 11.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
-
-
-.zengilan {
-  /* background-color: red; */
-  position: absolute;
-  top: 75%;
-  left: 40%;
-  height: 11.26259946949602vh;
-  width: 11.26259946949602vh;
-  cursor: pointer;
-  z-index: 1;
-  /* opacity: 0; */
-}
-
+  .zengilan {
+    /* background-color: red; */
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    height: 11.26259946949602vh;
+    width: 11.26259946949602vh;
+    cursor: pointer;
+    z-index: 1;
+    /* opacity: 0; */
+  }
 }
