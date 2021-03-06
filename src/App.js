@@ -46,6 +46,10 @@ import hamam1 from "../src/pages/Abideler/assets/Susa/hamam/hamam1.jpg";
 import hamam2 from "../src/pages/Abideler/assets/Susa/hamam/hamam2.jpg";
 import hamam3 from "../src/pages/Abideler/assets/Susa/hamam/hamam3.jpg";
 
+import saatli_evvel from "../src/pages/Abideler/assets/Susa/saatli/saatli_evvel.jpg";
+import saatli_orta from "../src/pages/Abideler/assets/Susa/saatli/saatli_orta.jpg";
+import saatli_sonra from "../src/pages/Abideler/assets/Susa/saatli/saatli_sonra.jpg";
+
 function App() {
   return (
     <BrowserRouter>
@@ -356,24 +360,24 @@ function App() {
             ]}
           />
         </Route>
-        <Route path="/susa/hamam">
-          <Abide
+        <Route path="/susa/saatli_mescid">
+          <Abide2
             exact
             rayonName={"Şuşa"}
             abideName={"Şirin Su Hamamı"}
             abideText1={
-              "Orta əsr Azərbaycan şəhərləri kimi musəlman aləminin ənənələrinə gorə hər məhəllənin ictimai hamamı olmalı idi. Onlardanbiri də Mərdinli məhəlləsində, Qaraşarov kucəsində yerləşən “Şirin su” hamamıdır.Bu hamam 1880-ci ildə inşa olunub. Arxiv və biblioqrafik məlumatlara gorə bəzi mənbələrdə hamam Rustəmbəyov qardaşlarınınvəsaiti, digər mənbələrə gorə isə Xan qızı Natəvanın vəsaiti ilə tikilmişdir."
+              "Şuşanın məhəllə məscidləri sırasında kompozisiya həllinə və xüsusilə minarəsinin olması ilə ön cərgədə duran «Saatlı» məscidi Kərbəlayi Səfiхanın Qarabağda tikdiyi minarəli məscidlərdən sonuncusu hesab olunur. Saatlı məscidi - Şuşa şəhərində 1883-cu ildə «Saatlı» məhəlləsində tikilib. Məscidin tikilmə tarixi və memarının adı baş fasadın giriş qapısının ustundəki 74x52 sm və 52x36.5 sm olculu kitabələrdə belə qeyd olunur: “Əməli Kərbəlaya Səfixan memar Qara Bağı (1301)” və “Bismillah Rəhmani Rəhim İnnama Yuəmmuru məscidicibi Allah Min Amin Billah Vəlyomil Axer. Allah, Məhəmməd, Əli, Fatimə, Həsən, Huseyn Məsci Sautlu sene (1312)”.Ustundəki kitabələrdə həkk olunan tarixlərin fərqli olduğu gorunur. Tarix memarlıq abidələrinin divarlarında memarın adı həkk olunmuş kitabələrdəki tarix abidənin tikilmə tarixi kimi qəbul olunur. Ola bilsin ki, ikinci kitabə sonradan abidənin uzərinə yerləşdirilmişdir. Şuşada Aşağı Govhər ağa məscidi, Ağdam cumə məscidi və Abdal Gulablı kəndindəki Hamam kompleksi və Bərdə İmamzadəsi ilə yanaşı Yuxarı Govhər ağa məscidi də memarın ən yaxşı əsərləri sırasına daxildir."
             }
             abideText2={
-              "Qeyd edək ki, digər hamamlarda istifadə olunan su ərazilərdəki şor quyu sularından olub. Bu hamam isə Xan qızının Şuşaya cəkdirdiyi icməli şirin su ilə təchiz olunmuşdur. Elə adı da “Şirin su” olaraq burdan irəli gəlmişdir. "
+              " “Saatlı” məscidini tikərkən memar yerin relyefini əsas goturməklə həcm və məkan prinsipinə sadiq qalmış və beləliklə, məscidə tək minarə əlavə etməyi ustun tutmuşdur. Kərbəlayi Səfixan oz sənətkarlıq qabiliyyətini “Saatlı” məscidi uzərində lazımi səviyyədə numayiş etdirmişdir. Şuşanın məhəllə məscidləri sırasında kompozisiya həllinə və xususilə, minarəsinin olması ilə secilən “Saatlı” məscidi Kərbəlayi Səfixanın Qarabağda tikdiyi minarəli məscidlərin sonuncusu hesab olunur. Şuşada sonralar tikilən məscidlər minarəsiz olmuş və bəzilərinin damında minarə şərəfəsini xatırladan “Guldəstə” lər quraşdırılmışdır. Məscidin inşa edildiyi yerdə əvvəl Molla Pənah Vaqifin dərs kecdiyi bir-birinə bitişik mədrəsə və məscid binaları olmuşdur. Şuşanın işğalından sonra məscid xarabalığa cevrilmiş, onun zəngin interyerləri tamamilə, minarəsi isə qismən dağıdılmışdır."
             }
             abideText3={
-              "Abidənin uzərində də yazılı hec bir məlumat yoxdur. 1982-ci ildə aparılan olcu işləri zamanı muəyyən olunub ki, hamam uzun muddət istismar olunmadığından ilkin gorkəminin 50%-ni itirmişdir. 1988-1989-cu ildə abidə əsaslı bərpa olunaraq istismara verilmişdir. Şirin su hamamı Şuşa şəhərinin 1992-ci il may ayının 8-nə kimi, yəni Şuşanın ermənilər tərəfindən işğal edilməsinə kimi oz təyinatı uzrə fəaliyyət gostərirdi. Azərbaycan Respublikası Nazirlər Kabinetinin 02 avqust 2001-ci il tarixli 132 nomrəli Qərarı ilə təsdiq edilmiş siyahıda abidənin aid olduğu dovr XVIII əsr qeyd olunsa da, mənbələr uzrə araşdırmalar abidənin XIX əsrə (1880-ci il) tikilisi olduğunu gostərir."
+              "Abidənin divarları yerli sərt qaya daşından tikilmişdir. Əhəngdən suvaq və boya materialı kimi istifadə edilmişdir. Qadınların ibadət zalının doşəməsi ağac materialındandır. Tavan ortuyu, gunbəz və tağlar bişmiş kərpicdən yığılmışdır. Sutun və plyastralar sərt qaya daşındandır. İnteryerdəki nəqqaşlıq işlərinin və yazıların bərpasına ehtiyac vardır. Ağac konstruksiyalı şəbəkə pəncərələr və qapılar yararsız vəziyyətdədir. Məscidin qərb divarında uc ədəd taxca, şimal divarında isə bir ədəd ocaq vardır. Minarə isə bişmiş kərpicdən horulmuşdur. Şərəfənin metal məhəccəri və ortuyu yararsız vəziyyətdə olduğundan bərpa olunmasına ehtiyac vardır. Deformasiyaya uğramış dam ortuyunun bərpası vacibdir."
             }
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
             abideEhemiyyet={"Yerli əhəmiyyətli"}
-            images={[hamam1, hamam2, hamam3]}
+            images={[saatli_evvel, saatli_orta, saatli_sonra]}
           />
         </Route>
         {/*  */}
