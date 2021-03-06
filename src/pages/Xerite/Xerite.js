@@ -12,7 +12,7 @@ import xrt from "./assets/xerite-transparant.png";
 import logored from "./assets/logored.png";
 
 import xerite_mescid from "./assets/moqsue_new.svg";
-import xerite_yasayis from "./assets/xerite-yasayis.png";
+import xerite_yasayis from "./assets/city-hall.svg";
 import xerite_karvansaray from "./assets/karvansaray_new.svg";
 import xerite_turbe from "./assets/turbe_new.svg";
 import xerite_korpu from "./assets/xerite-korpu.svg";
