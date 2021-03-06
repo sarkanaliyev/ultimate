@@ -15,8 +15,13 @@ import xerite_mescid from "./assets/moqsue_new.svg";
 import xerite_yasayis from "./assets/city-hall.svg";
 import xerite_karvansaray from "./assets/karvansaray_new.svg";
 import xerite_turbe from "./assets/turbe_new.svg";
-import xerite_korpu from "./assets/xerite-korpu.svg";
-import xerite_hamam from "./assets/xerite-hamam.svg";
+
+// import xerite_korpu from "./assets/xerite-korpu.svg";
+// import xerite_hamam from "./assets/xerite-hamam.svg";
+
+import xerite_korpu from "./assets/Körpü.svg";
+import xerite_hamam from "./assets/Hamam.svg";
+
 
 export default function Xerite() {
   gsap.registerPlugin(Timeline, Power2);
