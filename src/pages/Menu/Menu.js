@@ -20,7 +20,7 @@ export default function Menu() {
               <h1>Ana Səhifə</h1>
             </a>
             <a href="/xerite">
-              <p>Xerite</p>
+              <p>Xəritə</p>
             </a>
           </div>
           <div>

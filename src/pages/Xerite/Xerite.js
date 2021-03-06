@@ -11,10 +11,10 @@ import Menu from "../Menu/Menu";
 import xrt from "./assets/xerite-transparant.png";
 import logored from "./assets/logored.png";
 
-import xerite_mescid from "./assets/mosque.svg";
+import xerite_mescid from "./assets/moqsue_new.svg";
 import xerite_yasayis from "./assets/city-hall.svg";
-import xerite_karvansaray from "./assets/xerite-karvansaray.png";
-import xerite_turbe from "./assets/turbe.svg";
+import xerite_karvansaray from "./assets/karvansaray_new.svg";
+import xerite_turbe from "./assets/turbe_new.svg";
 import xerite_korpu from "./assets/xerite-korpu.svg";
 import xerite_hamam from "./assets/xerite-hamam.svg";
 

@@ -16,7 +16,7 @@ import qarakopektepe from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qar
 import qarakopektepe2 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe2.jpg";
 import qarakopektepe3 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe3.jpg";
 import qarakopektepe4 from "../src/pages/Abideler/assets/Fuzuli/qarakopektepe/qarakopektepe4.jpg";
-import haci_elekber_mescidi from "../src/pages/Abideler/assets/Fuzuli/haci_elekber_mescidi/haci_elekber_mescidi.jpg";
+import haci_elekber_mescidi from "../src/pages/Abideler/assets/Fuzuli/haci_elekber_mescidi/haci_elekber_new.jpg";
 import turbe2 from "../src/pages/Abideler/assets/Fuzuli/turbe/turbe2.jpg";
 
 import celebir_mescid from "../src/pages/Abideler/assets/Cebrayil/celebir_mescid/celebir_mescid.jpg";
