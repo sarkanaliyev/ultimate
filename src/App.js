@@ -29,7 +29,9 @@ import natavan2 from "../src/pages/Abideler/assets/Susa/natavan/natavan2.jpeg";
 import natavan3 from "../src/pages/Abideler/assets/Susa/natavan/natavan3.jpg";
 import natavan4 from "../src/pages/Abideler/assets/Susa/natavan/natavan4.jpg";
 
-import govher_aga from "../src/pages/Abideler/assets/Susa/govher_aga/govher-aga.jpg";
+import govher_aga from "../src/pages/Abideler/assets/Susa/govher_aga/govher_aga_orta.jpg";
+import govher_aga_evvel from "../src/pages/Abideler/assets/Susa/govher_aga/govher_aga_evvel.jpg";
+import govher_aga_sonra from "../src/pages/Abideler/assets/Susa/govher_aga/govher_aga_sonra.jpg";
 
 import asagi_govher_aga1 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga1.jpg";
 import asagi_govher_aga2 from "../src/pages/Abideler/assets/Susa/asagi_govher_aga/asagi_govher_aga2.jpg";
@@ -306,7 +308,7 @@ function App() {
           />
         </Route>
         <Route path="/susa/yuxari_govher_aga">
-          <Abide
+          <Abide2
             exact
             rayonName={"Şuşa"}
             abideName={"Yuxarı Gövhər ağa məscidi"}
@@ -322,7 +324,7 @@ function App() {
             abideUnvan={"Qarğabazar kəndi"}
             abideTarix={"XVII əsr"}
             abideEhemiyyet={"Yerli əhəmiyyətli"}
-            images={[govher_aga]}
+            images={[govher_aga_evvel, govher_aga, govher_aga_sonra]}
           />
         </Route>
         <Route path="/susa/asagi_govher_aga">
